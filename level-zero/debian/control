@@ -1,0 +1,44 @@
+Source: level-zero-loader
+Section: libs
+Priority: optional
+Maintainer: Timo Aaltonen <tjaalton@debian.org>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ libspdlog-dev,
+Standards-Version: 4.6.1
+Homepage: https://github.com/oneapi-src/level-zero
+Vcs-Browser: https://salsa.debian.org/debian/level-zero
+Vcs-Git: https://salsa.debian.org/debian/level-zero.git
+
+Package: libze-dev
+Section: libdevel
+Architecture: amd64
+Multi-Arch: same
+Depends:
+ libze1 (= ${binary:Version}),
+ ${misc:Depends},
+Description: oneAPI Level Zero -- development files
+ The oneAPI Level Zero (Level Zero) provides low-level direct-to-metal
+ interfaces that are tailored to the devices in a oneAPI platform.
+ Level Zero supports broader language features such as function pointers,
+ virtual functions, unified memory, and I/O capabilities while also
+ providing fine-grain explicit controls needed by higher-level runtime APIs.
+ .
+ This package provides the development environment for Level Zero.
+
+Package: libze1
+Architecture: amd64
+Multi-Arch: same
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: oneAPI Level Zero -- share libraries
+ The oneAPI Level Zero (Level Zero) provides low-level direct-to-metal
+ interfaces that are tailored to the devices in a oneAPI platform.
+ Level Zero supports broader language features such as function pointers,
+ virtual functions, unified memory, and I/O capabilities while also
+ providing fine-grain explicit controls needed by higher-level runtime APIs.
+ .
+ This package contains the shared libraries for Level Zero.

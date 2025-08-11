@@ -1,0 +1,32 @@
+Source: metrics-library
+Section: libs
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Intel Graphics Team <linux-graphics@intel.com>
+Build-Depends: debhelper (>= 11),
+ cmake,
+ pkg-config,
+ libdrm-dev
+Standards-Version: 4.3.0
+Homepage: https://github.com/intel/metrics-library
+
+Package: intel-metrics-library
+Replaces: libigdml1
+Architecture: amd64
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: Intel(R) Metrics Library for MDAPI (Intel(R) Metrics Discovery
+ API) -- shared library. Metrics Library is a user mode driver helper library
+ that provides access to GPU performance counters.
+
+Package: intel-metrics-library-dev
+Replaces: libigdml-dev
+Section: libdevel
+Architecture: amd64
+Depends:
+ intel-metrics-library (= ${binary:Version}),
+ ${misc:Depends}
+Description: Intel(R) Metrics Library for MDAPI (Intel(R) Metrics Discovery
+ API) -- development files. Metrics Library is a user mode driver helper library
+ that provides access to GPU performance counters.

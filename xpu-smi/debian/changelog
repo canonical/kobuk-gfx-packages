@@ -1,0 +1,74 @@
+xpumanager (1.3.1-0ubuntu1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 1.3.1 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 24 Jul 2025 10:55:43 -0700
+
+xpumanager (1.3.0-0ubuntu1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 1.3.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 22 Jul 2025 09:45:02 -0700
+
+xpumanager (1.2.41-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 1.2.41 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 23 Apr 2025 09:27:49 -0700
+
+xpumanager (1.2.39-0ubuntu1~24.10~ppa5) oracular; urgency=medium
+
+  * Bump PPA number since ppa4 got uploaded during a test by mistake
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 18 Oct 2024 00:05:57 +0800
+
+xpumanager (1.2.39-0ubuntu1~24.10~ppa4) oracular; urgency=medium
+
+  * Add Section: utils to fix PPA upload issue
+
+ -- Shane McKee <shane.mckee@canonical.com>  Thu, 17 Oct 2024 23:10:13 +0800
+
+xpumanager (1.2.39-0ubuntu1~24.10~ppa3) oracular; urgency=medium
+
+  * Align source package name with the source name
+  * Remove unnecessary dependencies from the control file
+  * Remove unnecessary dh_install override
+  * Add xpu-smi package
+
+ -- Shane McKee <shane.mckee@canonical.com>  Tue, 08 Oct 2024 00:02:13 +0800
+
+xpu-smi (1.2.39-0ubuntu1~24.10~ppa2) oracular; urgency=medium
+
+  * Fix some issues in the copyright file
+  * Fix Lintian complaints
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 04 Oct 2024 02:03:24 +0800
+
+xpu-smi (1.2.39-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Bump version to 1.2.39
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 03 Oct 2024 09:36:01 -0700
+
+xpu-smi (1.2.35-0ubuntu1~24.10~ppa2) oracular; urgency=medium
+
+  * Changed dependency to intel-gsc 
+
+ -- Shane McKee <shane.mckee@canonical.com>  Tue, 01 Oct 2024 21:59:03 +0800
+
+xpu-smi (1.2.35-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  [ Pavel Androniychuk ]
+  * build libraries.compute.xpu-manager.build-plan-ci-main-60
+
+  [ Pedro Kopper ]
+  * Update files to match PPA names
+  * Add libigsc0 as dependency 
+
+ -- Pedro Kopper <pedro.kopper@canonical.com>  Mon, 09 Sep 2024 22:55:08 -0300
+
+xpu-smi (1.0) experimental; urgency=medium
+
+    * First Release
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 31 Aug 2022 15:46:02 -0800

@@ -1,0 +1,486 @@
+intel-media-driver-non-free (25.2.6-0ubuntu1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.2.6
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 01 Jul 2025 12:25:33 -0700
+
+intel-media-driver-non-free (25.2.4-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.2.4
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 10 Jun 2025 10:41:46 -0700
+
+intel-media-driver-non-free (25.2.2-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.2.2
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 16 May 2025 13:32:36 -0700
+
+intel-media-driver-non-free (25.2.1-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.2.1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 01 May 2025 11:31:43 -0700
+
+intel-media-driver-non-free (25.2.0-0ubuntu1~ppa1) oracular; urgency=medium
+
+  * Update to version 25.2.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 15 Apr 2025 15:06:04 -0700
+
+intel-media-driver-non-free (25.1.0-0ubuntu1~ppa1) oracular; urgency=medium
+
+  * Bump version to 25.1.0 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 22 Jan 2025 13:28:39 -0800
+
+intel-media-driver-non-free (24.4.3-0ubuntu1~ppa1) oracular; urgency=medium
+
+  * Bump to 24.4.3
+
+ -- Shane McKee <shane.mckee@canonical.com>  Thu, 05 Dec 2024 06:59:07 +0800
+
+intel-media-driver-non-free (24.4.2-0ubuntu1~ppa1) oracular; urgency=medium
+
+  * Bump version to 24.4.2
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 01 Nov 2024 09:17:42 -0700
+
+intel-media-driver-non-free (24.3.4-0ubuntu1~ppa1) oracular; urgency=medium
+
+  * Bump to 24.3.4
+  * Change to Oracular for PPA 
+
+ -- Shane McKee <shane.mckee@canonical.com>  Mon, 23 Sep 2024 22:03:36 +0800
+
+intel-media-driver-non-free (24.3.1+ds1-1) unstable; urgency=medium
+
+  * New upstream version 24.3.1+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 10 Aug 2024 09:54:32 +0200
+
+intel-media-driver-non-free (24.2.5+ds1-1) unstable; urgency=medium
+
+  * New upstream version 24.2.5+ds1
+  * debian/control: Bump libigdgmm-dev to 22.4.1 for new constants
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 14 Jul 2024 12:27:24 +0200
+
+intel-media-driver-non-free (24.2.2+ds1-1) unstable; urgency=medium
+
+  * New upstream version 24.2.2+ds1
+  * debian/copyright: Bump copyright years
+  * debian/control:
+    - Bump Standards-Version
+    - Use pkgconf
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 09 May 2024 18:04:23 +0200
+
+intel-media-driver-non-free (24.1.0+ds1-1) unstable; urgency=medium
+
+  * New upstream version 24.1.0+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 29 Dec 2023 21:02:54 +0100
+
+intel-media-driver-non-free (23.4.2+ds1-1) unstable; urgency=medium
+
+  * New upstream version 23.4.2+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 10 Dec 2023 00:16:34 +0100
+
+intel-media-driver-non-free (23.3.5+ds1-1) unstable; urgency=medium
+
+  * New upstream version 23.3.5+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 21 Oct 2023 21:51:28 +0200
+
+intel-media-driver-non-free (23.3.4+ds1-1) unstable; urgency=medium
+
+  * New upstream version 23.3.4+ds1
+  * debian/patches: Refresh patches
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 15 Oct 2023 23:09:40 +0200
+
+intel-media-driver-non-free (23.3.2+ds1-1) unstable; urgency=medium
+
+  * New upstream version 23.3.2+ds1
+  * debian/: Build with ninja
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 02 Sep 2023 20:54:59 +0200
+
+intel-media-driver-non-free (23.2.3+ds1-1) unstable; urgency=medium
+
+  * New upstream version 23.2.3+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 01 Jul 2023 18:08:32 +0200
+
+intel-media-driver-non-free (23.1.2+ds1-1) unstable; urgency=medium
+
+  * New upstream version 23.1.2+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 03 Mar 2023 21:39:25 +0100
+
+intel-media-driver-non-free (23.1.1+ds1-1) unstable; urgency=medium
+
+  * New upstream version 23.1.1+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 18 Feb 2023 13:50:55 +0100
+
+intel-media-driver-non-free (23.1.0+ds1-1) unstable; urgency=medium
+
+  * New upstream version 23.1.0+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 21 Jan 2023 23:09:08 +0100
+
+intel-media-driver-non-free (22.6.6+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.6.6+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 15 Jan 2023 15:15:17 +0100
+
+intel-media-driver-non-free (22.6.5+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.6.5+ds1
+  * debian/control: Bump Standards-Version
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 05 Jan 2023 14:12:15 +0100
+
+intel-media-driver-non-free (22.6.4+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.6.4+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 10 Dec 2022 23:10:41 +0100
+
+intel-media-driver-non-free (22.6.3+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.6.3+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Mon, 21 Nov 2022 22:47:58 +0100
+
+intel-media-driver-non-free (22.6.1+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.6.1+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 06 Nov 2022 19:43:43 +0100
+
+intel-media-driver-non-free (22.6.0+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.6.0+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 23 Oct 2022 11:49:49 +0200
+
+intel-media-driver-non-free (22.5.4+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.5.4+ds1
+  * debian/patches: Drop patches integrated upstream
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 01 Oct 2022 19:03:04 +0200
+
+intel-media-driver-non-free (22.5.3+ds1-2) unstable; urgency=medium
+
+  * debian/patches: Apply upstream fix for i386 FTBFS (Closes: #1020521)
+  * debian/rules:
+    - Disable -Werror
+    - Set ARCH
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 23 Sep 2022 23:38:40 +0200
+
+intel-media-driver-non-free (22.5.3+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.5.3+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Mon, 29 Aug 2022 21:33:08 +0200
+
+intel-media-driver-non-free (22.5.2+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.5.2+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Tue, 16 Aug 2022 20:57:22 +0200
+
+intel-media-driver-non-free (22.5.1+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.5.1+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Tue, 02 Aug 2022 21:18:24 +0200
+
+intel-media-driver-non-free (22.4.3+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.4.3+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 16 Jun 2022 22:48:53 +0200
+
+intel-media-driver-non-free (22.4.2+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.4.2+ds1
+  * debian/control: Bump Standards-Version
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 26 May 2022 10:26:53 +0200
+
+intel-media-driver-non-free (22.4.0+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.4.0+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 24 Apr 2022 22:52:03 +0200
+
+intel-media-driver-non-free (22.3.1+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.3.1+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Mon, 04 Apr 2022 23:37:05 +0200
+
+intel-media-driver-non-free (22.3.0+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.3.0+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 19 Mar 2022 23:36:04 +0100
+
+intel-media-driver-non-free (22.2.1+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.2.1+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 23 Feb 2022 08:51:55 +0100
+
+intel-media-driver-non-free (22.2.0+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.2.0+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 13 Feb 2022 18:29:21 +0100
+
+intel-media-driver-non-free (22.1.1+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.1.1+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Mon, 07 Feb 2022 22:24:15 +0100
+
+intel-media-driver-non-free (22.1.0+ds1-1) unstable; urgency=medium
+
+  * New upstream version 22.1.0+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 30 Dec 2021 22:36:27 +0100
+
+intel-media-driver-non-free (21.4.2+ds1-1) unstable; urgency=medium
+
+  * New upstream version 21.4.2+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 28 Nov 2021 15:54:07 +0100
+
+intel-media-driver-non-free (21.4.1+ds1-1) unstable; urgency=medium
+
+  * New upstream version 21.4.1+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 10 Nov 2021 20:53:43 +0100
+
+intel-media-driver-non-free (21.4.0+ds1-1) unstable; urgency=medium
+
+  * New upstream version 21.4.0+ds1
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 29 Oct 2021 17:29:12 +0200
+
+intel-media-driver-non-free (21.3.4+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 01 Oct 2021 19:43:34 +0200
+
+intel-media-driver-non-free (21.3.3+ds1-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+
+  [ Sebastian Ramacher ]
+  * New upstream release
+  * debian/control:
+    - Bump libva B-D
+    - Bump Standards-Version
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 05 Sep 2021 21:35:42 +0200
+
+intel-media-driver-non-free (21.3.2+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Tue, 31 Aug 2021 20:32:16 +0200
+
+intel-media-driver-non-free (21.3.1+ds1-2) unstable; urgency=medium
+
+  * Upload to unstable
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 15 Aug 2021 19:04:41 +0200
+
+intel-media-driver-non-free (21.3.0+ds1-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 04 Aug 2021 23:00:19 +0200
+
+intel-media-driver-non-free (21.2.2+ds1-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 23 Jun 2021 00:08:54 +0200
+
+intel-media-driver-non-free (21.1.3+ds1-1) experimental; urgency=medium
+
+  * New upstream release
+  * debian/copyright: Bump copyright years
+  * debian/control: Bump libigdgmm-dev BD
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Mon, 05 Apr 2021 14:55:45 +0200
+
+intel-media-driver-non-free (21.1.1+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 05 Feb 2021 22:09:37 +0100
+
+intel-media-driver-non-free (21.1.0+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Tue, 26 Jan 2021 20:32:56 +0100
+
+intel-media-driver-non-free (20.4.5+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 02 Jan 2021 17:03:51 +0100
+
+intel-media-driver-non-free (20.4.3+ds1-1) unstable; urgency=medium
+
+  * New upstream version 20.4.3+ds1
+    - Fix crash on H.264 encoding (Closes: #977286)
+  * debian/control: Bump libigdgmm-dev BD
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 13 Dec 2020 18:07:37 +0100
+
+intel-media-driver-non-free (20.4.2+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control: Bump Standards-Version
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 02 Dec 2020 20:52:38 +0100
+
+intel-media-driver-non-free (20.4.1+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 15 Nov 2020 17:09:28 +0100
+
+intel-media-driver-non-free (20.3.0+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control:
+    - Bump libva B-D
+    - Remove libpciaccess-dev from B-D
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 04 Oct 2020 20:58:57 +0200
+
+intel-media-driver-non-free (20.2.0+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control: Bump debhelper compat to 13
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 12 Jul 2020 11:03:36 +0200
+
+intel-media-driver-non-free (20.1.1+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 09 Apr 2020 12:01:14 +0200
+
+intel-media-driver-non-free (19.4.1+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/watch: Revert "Check for Xr releases"
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 02 Apr 2020 13:08:07 +0200
+
+intel-media-driver-non-free (19.4.0r+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/: Remove note about changing LIBVA_DRIVER
+  * debian/control: Bump Standards-Version
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 05 Feb 2020 20:15:04 +0100
+
+intel-media-driver-non-free (19.4.0+ds1-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control: Bump libva-dev B-D
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Tue, 24 Dec 2019 14:42:49 +0100
+
+intel-media-driver-non-free (19.3.1+ds1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Fri, 01 Nov 2019 09:43:57 +0100
+
+intel-media-driver-non-free (19.3.0+ds1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control: Bump Standards-Version
+  * debian/patches: Refresh patches
+  * debian/copyright:
+    - Bump copyright years
+    - Remove Christoph Rau
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 13 Oct 2019 14:31:59 +0200
+
+intel-media-driver-non-free (19.2.1+ds1-2) unstable; urgency=medium
+
+  * debian/rules: Run tests only on Intel CPUs.
+  * debian/patches: Remove an obsolete compile flag. (Closes: #935000)
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Thu, 22 Aug 2019 18:40:41 +0200
+
+intel-media-driver-non-free (19.2.1+ds1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 10 Aug 2019 18:35:17 +0200
+
+intel-media-driver-non-free (19.2.0+ds1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    - Bump Standards-Version.
+    - Bump libigdgmm-dev B-D.
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 07 Jul 2019 18:22:41 +0200
+
+intel-media-driver-non-free (18.4.1+ds1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/watch: Ignore pre-releases.
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 07 Apr 2019 14:13:11 +0200
+
+intel-media-driver-non-free (18.4.0+ds1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/copyright: Refine Files-Excluded.
+  * debian/rules: Explicitly specify desired build flags wrt kernels.
+  * debian/patches: Refresh patches.
+  * debian/: Bump debhelper compat to 12
+  * debian/control:
+    - Bump Standards-Version.
+    - Mention Whiskey Lake.
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 02 Feb 2019 19:43:01 +0100
+
+intel-media-driver-non-free (18.3.0+ds1-2) unstable; urgency=medium
+
+  * debian/: Fix build on i386. (Closes: #915572)
+    - debian/patches: Do not define __AMD64__ and avoid -m64 when building for
+      i386.
+    - debian/rules: Enable LFS support.
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Mon, 10 Dec 2018 23:10:55 +0100
+
+intel-media-driver-non-free (18.3.0+ds1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #909984)
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Mon, 19 Nov 2018 23:21:00 +0100

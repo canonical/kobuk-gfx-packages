@@ -1,0 +1,101 @@
+Source: intel-compute-runtime
+Section: libs
+Priority: optional
+Maintainer: Intel Graphics Team <linux-graphics@intel.com>
+XSBC-Original-Maintainer: Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 11),
+ cmake,
+ libigsc-dev (>= 0.9.5),
+ libigc-dev (>= 2.14.1),
+ libigdfcl-dev (>= 2.14.1),
+ libigdgmm-dev (>= 22.8.0),
+ libva-dev,
+ libze-dev (>= 1.22.5),
+ libnl-3-dev,
+ libnl-route-3-dev,
+ libudev-dev,
+ pkg-config
+Standards-Version: 4.3.0
+Homepage: https://github.com/intel/compute-runtime
+
+Package: libze-intel-gpu1
+Architecture: amd64
+Provides: intel-level-zero-gpu
+Breaks: intel-level-zero-gpu
+Replaces: intel-level-zero-gpu
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ libigc2 (>= 2.14.1),
+ libigdfcl2 (>= 2.14.1),
+ libnl-3-200,
+ libnl-route-3-200,
+ libze1
+Description: Intel(R) Graphics Compute Runtime for oneAPI Level Zero.
+ Level Zero is the primary low-level interface for language and runtime
+ libraries. Level Zero offers fine-grain control over accelerators
+ capabilities, delivering a simplified and low-latency interface to
+ hardware, and efficiently exposing hardware capabilities to applications.
+
+Package: libze-intel-gpu-dev
+Architecture: amd64
+Provides: intel-level-zero-gpu-dev
+Breaks: intel-level-zero-gpu-dev
+Replaces: intel-level-zero-gpu-dev
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ libze-intel-gpu1
+Description: Intel(R) Graphics Compute Runtime for oneAPI Level Zero
+ This package containes the development headers
+
+Package: intel-opencl-icd
+Architecture: amd64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ ocl-icd-libopencl1,
+ libigc2 (>= 2.14.1),
+ libigdfcl2 (>= 2.14.1),
+Breaks:
+ intel-opencl
+Replaces:
+ intel-opencl
+Provides:
+ opencl-icd
+Description: Intel graphics compute runtime for OpenCL
+ The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source
+ project to converge Intel's development efforts on OpenCL(TM) compute
+ stacks supporting the GEN graphics hardware architecture.
+ .
+ Supported platforms - OpenCL 3.0, Production:
+ - DG1
+ - Intel Core Processors with Gen9 GPU (Skylake)
+ - Intel Core Processors with Gen9.5 GPU (Kaby Lake, Coffee Lake)
+ - Intel Core Processors with Gen11 GPU (Ice Lake)
+ - Intel Core Processors with Xe LP (Gen12) GPU (Tiger Lake, Rocket Lake)
+ - Intel Core Processors with Xe (Gen12.2) GPU (Alder Lake)
+ - Intel Atom Processors with Gen11 GPU (Elkhart Lake)
+ Supported platforms - OpenCL 3.0, Maintenance:
+ - Intel Core Processors with Gen8 GPU (Broadwell)
+ - Intel Atom Processors with Gen9 GPU (Apollo Lake, Gemini Lake)
+
+Package: intel-ocloc
+Architecture: any-amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: intel-opencl-icd (<< 24.31.30508.14)
+Replaces: intel-opencl-icd (<< 24.31.30508.14)
+Description: Tool for managing Intel Compute GPU device binary format
+ ocloc is a tool for managing Intel Compute GPU device binary format.
+ It can be used for generation as well as manipulation of such binary files.
+
+Package: intel-ocloc-dev
+Architecture: any-amd64
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Breaks: intel-opencl-icd (<< 24.31.30508.14)
+Replaces: intel-opencl-icd (<< 24.31.30508.14)
+Description: Tool for managing Intel Compute GPU device binary format -- devel files
+ ocloc is a tool for managing Intel Compute GPU device binary format.
+ It can be used for generation as well as manipulation of such binary files.
+ .
+ This package includes the development headers for intel-ocloc.

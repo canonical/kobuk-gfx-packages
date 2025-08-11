@@ -1,0 +1,35 @@
+Source: metrics-discovery
+Section: libs
+Priority: optional
+Maintainer: Intel Graphics Team <linux-graphics@intel.com>
+Build-Depends: debhelper (>= 11),
+ cmake,
+ pkg-config,
+ libdrm-dev
+Standards-Version: 4.3.0
+Homepage: https://github.com/intel/metrics-discovery
+
+Package: intel-metrics-discovery
+Replaces: libmd1
+Architecture: amd64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: Intel(R) Metrics Discovery Application Programming Interface --
+ shared library. MDAPI creates abstraction level between Intel graphics
+ hardware and applications, provides common discovery and configuration
+ mechanism across all GEN graphics and serves metric definitions for
+ specific hardware to applications.
+
+Package: intel-metrics-discovery-dev
+Replaces: libmd-dev
+Section: libdevel
+Architecture: amd64
+Depends:
+ intel-metrics-discovery (= ${binary:Version}),
+ ${misc:Depends},
+Description: Intel(R) Metrics Discovery Application Programming Interface --
+ development files. MDAPI creates abstraction level between Intel graphics
+ hardware and applications, provides common discovery and configuration
+ mechanism across all GEN graphics and serves metric definitions for
+ specific hardware to applications.

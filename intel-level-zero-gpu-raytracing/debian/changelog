@@ -1,0 +1,57 @@
+intel-level-zero-gpu-raytracing (1.1.0-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  [ Sven Woop ]
+  * Added support for PTL RTAS layout.
+
+  [ Shane McKee ]
+  * Change to oracular for Intel Graphics PPA 
+  * Blended in changes from Pavel's PR#7 during conflict resolution
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 02 May 2025 20:12:54 +0400
+
+intel-level-zero-gpu-raytracing (1.0.0-0ubuntu1~24.10~ppa5) oracular; urgency=medium
+
+  * Change package name to fit soname
+  * Create noble version
+
+ -- Shane McKee <shane.mckee@canonical.com>  Wed, 29 Jan 2025 11:15:53 +0800
+
+intel-level-zero-gpu-raytracing (1.0.0-0ubuntu1~24.10~ppa4) oracular; urgency=medium
+
+  * Remove pkg compression override and drop 3rd party docs
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 23 Oct 2024 16:51:24 -0700
+
+intel-level-zero-gpu-raytracing (1.0.0-0ubuntu1~24.10~ppa3) oracular; urgency=medium
+
+  * Change dependency to pull libtbb-dev from archive
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Mon, 30 Sep 2024 08:41:42 -0700
+
+intel-level-zero-gpu-raytracing (1.0.0) UNRELEASED; urgency=medium
+
+  * Sync debian folder from upstream
+  * Correct build depends for libtbb12
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 10 Oct 2024 13:28:32 -0700
+
+intel-level-zero-gpu-raytracing (1.0.0-0ubuntu1~24.10~ppa2) oracular; urgency=medium
+
+  * Corrected the name of a dependency on libze1
+
+ -- Shane McKee <shane.mckee@canonical.com>  Thu, 12 Sep 2024 21:26:10 +0800
+
+intel-level-zero-gpu-raytracing (1.0.0-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update the version scheme for multiple different versions in the PPA
+  * Changed to oracular
+  * Changed to build without TBB static build (created a separate package for
+    that)
+
+ -- Shane McKee <shane.mckee@canonical.com>  Thu, 05 Sep 2024 17:50:23 +0800
+
+intel-level-zero-gpu-raytracing (1.0.0) experimental; urgency=medium
+
+    * First Release
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 21 Apr 2023 15:46:02 -0800

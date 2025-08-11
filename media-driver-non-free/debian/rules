@@ -1,0 +1,23 @@
+#!/usr/bin/make -f
+
+include /usr/share/dpkg/architecture.mk
+
+export DEB_BUILD_MAINT_OPTIONS=future=+lfs
+
+%:
+	dh $@ -Scmake+ninja
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-DINSTALL_DRIVER_SYSCONF=OFF \
+		-DENABLE_KERNELS=ON \
+		-DENABLE_NONFREE_KERNELS=ON \
+		-DBUILD_CMRTLIB=OFF \
+		-DARCH=$(DEB_HOST_ARCH_BITS) \
+		-DMEDIA_BUILD_FATAL_WARNINGS=OFF
+
+override_dh_auto_test:
+ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
+	# Requires Broadwell or newer, so check for SSE 4.2 support at least.
+	if grep -q sse4_2 /proc/cpuinfo && grep -q GenuineIntel /proc/cpuinfo; then dh_auto_test; fi
+endif

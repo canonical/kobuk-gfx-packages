@@ -1,0 +1,449 @@
+intel-compute-runtime (25.27.34303.9-1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.2.7.34303.9 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 06 Aug 2025 22:02:21 -0700
+
+intel-compute-runtime (25.27.34303.6-1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.27.34303.6 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 21 Jul 2025 08:54:26 -0700
+
+intel-compute-runtime (25.22.33944.13-1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.22.33944.13
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 11 Jul 2025 14:01:02 -0700
+
+intel-compute-runtime (25.22.33944.12-1~25.04~ppa2) plucky; urgency=medium
+
+  * Remove strip step to allow for debug symbols
+
+ -- Shane McKee <shane.mckee@canonical.com>  Wed, 09 Jul 2025 09:11:25 +0800
+
+intel-compute-runtime (25.22.33944.12-1~25.04~ppa1) plucky; urgency=medium
+
+  * Update version to 25.22.33944.12
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 01 Jul 2025 13:19:30 -0700
+
+intel-compute-runtime (25.22.33944.8-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version to 25.22.33944.8
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 24 Jun 2025 11:48:19 -0700
+
+intel-compute-runtime (25.18.33578.11-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.18.33578.11
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 03 Jun 2025 12:21:14 -0700
+
+intel-compute-runtime (25.18.33578.8-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.18.33578.8
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 20 May 2025 12:49:58 -0700
+
+intel-compute-runtime (25.13.33276.22-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.13.33276.22
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 06 May 2025 13:50:59 -0700
+
+intel-compute-runtime (25.13.33276.21-1~24.10~ppa1) oracular; urgency=medium
+
+  * Fix version typo 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 30 Apr 2025 12:20:45 -0700
+
+intel-compute-runtime (25.13.33267.21-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.13.33267.21
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 28 Apr 2025 08:31:49 -0700
+
+intel-compute-runtime (25.13.33267.17-1~24.10~ppa4) oracular; urgency=medium
+
+  * Add missing symbols for libze-intel-gpu1 pkg
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 17 Apr 2025 17:05:33 -0700
+
+intel-compute-runtime (25.13.33267.17-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version to 25.13.33267.17
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 17 Apr 2025 08:47:02 -0700
+
+intel-compute-runtime (25.05.32567.18-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.05.32567.18
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 10 Mar 2025 09:38:42 -0700
+
+intel-compute-runtime (25.05.32567.16-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.05.32567.16 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 25 Feb 2025 13:25:17 -0800
+
+intel-compute-runtime (24.52.32224.14-1~24.10~ppa2) oracular; urgency=medium
+
+  * Fix build id versions in rules file
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 13 Feb 2025 10:47:36 -0800
+
+intel-compute-runtime (24.52.32224.14-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version to 24.52.32224.14
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 10 Feb 2025 14:27:02 -0800
+
+intel-compute-runtime (24.52.32224.9-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version to 24.52.32224.9
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 28 Jan 2025 14:07:47 -0800
+
+intel-compute-runtime (24.52.32224.5-1~24.10~ppa2) oracular; urgency=medium
+
+  * Add missing symbols file for libze-intel-gpu1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 15 Jan 2025 10:13:14 -0800
+
+intel-compute-runtime (24.52.32224.5-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version to 24.52.32224.5
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 13 Jan 2025 14:27:34 -0800
+
+intel-compute-runtime (24.45.31740.14-1~24.10~ppa2) oracular; urgency=medium
+
+  * No-op PPA version bump to fix an error in the previous changelog
+
+ -- Shane McKee <shane.mckee@canonical.com>  Tue, 17 Dec 2024 04:25:13 +0800
+
+intel-compute-runtime (24.45.31740.14-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version to 24.45.31740.14 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 12 Dec 2024 14:11:06 -0800
+
+intel-compute-runtime (24.45.31740.13-1~24.10~ppa2) oracular; urgency=medium
+
+  * Fix igc dependency declaration
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 06 Dec 2024 10:53:27 -0800
+
+intel-compute-runtime (24.45.31740.13-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version to 24.45.31740.13
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 05 Dec 2024 15:15:39 -0800
+
+intel-compute-runtime (24.45.31740.11-1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version to 24.45.31740.11 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 03 Dec 2024 16:51:45 -0800
+
+intel-compute-runtime (24.39.31294.20-1~24.10~ppa1) oracular; urgency=medium
+
+  * bump version to 24.39.31294.20
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 31 Oct 2024 07:31:53 -0700
+
+intel-compute-runtime (24.39.31294.12-1~24.10~ppa1) oracular; urgency=medium
+
+  * bump version to 24.39.31294.12
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 16 Oct 2024 16:29:13 -0700
+
+intel-compute-runtime (24.39.31294.10-1~24.10~ppa2) oracular; urgency=medium
+
+  * Update libze-intel-gpu1 symbols file
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 09 Oct 2024 14:51:23 -0700
+
+intel-compute-runtime (24.39.31294.10-1~24.10~ppa1) oracular; urgency=medium
+
+  * bump version to 24.39.31294.10
+  * update build flags to include eudebug and xe preliminary support
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 09 Oct 2024 08:45:17 -0700
+
+intel-compute-runtime (24.39.31294.9-1~24.10~ppa1) oracular; urgency=medium
+
+  * bump version to 24.39.31294.9
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 08 Oct 2024 11:21:27 -0700
+
+intel-compute-runtime (24.35.30872.31-1~24.10~ppa1) oracular; urgency=medium
+
+  * bump version to 24.35.30872.31
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 04 Oct 2024 08:28:02 -0700
+
+intel-compute-runtime (24.35.30872.30-1~24.10~ppa1) oracular; urgency=medium
+
+  * bump to 24.35.30872.30 
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 04 Oct 2024 03:11:05 +0800
+
+intel-compute-runtime (24.35.30872.29-1~24.10~ppa1) oracular; urgency=medium
+
+  * bump version to 24.35.30872.29
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Wed, 02 Oct 2024 16:33:42 -0700
+
+intel-compute-runtime (24.35.30872.27-1~24.10~ppa2) oracular; urgency=medium
+
+  * bump version to 24.35.30872.27
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Tue, 01 Oct 2024 14:10:46 -0700
+
+intel-compute-runtime (24.35.30872.24-1018~24.10~ppa1) oracular; urgency=medium
+
+  * bump version to 24.35.30872.24-1018
+  * remove intel-igc-cm as dependency
+  * add DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Wed, 25 Sep 2024 02:13:55 -0700
+
+intel-compute-runtime (24.35.30872.24-1) unstable; urgency=medium
+
+  * New upstream release.
+  * intel-ocloc: Add an alternative for usr/bin/ocloc.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 25 Sep 2024 12:04:36 +0300
+
+intel-compute-runtime (24.35.30872.18-1002~24.04) unstable; urgency=medium
+
+  * bump version to 24.35.30872.18-1002
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Thu, 12 Sep 2024 14:45:40 -0700
+
+intel-compute-runtime (24.35.30872.17-1) unstable; urgency=medium
+
+  * Add level-zero-gpu to opencl debian files
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Thu, 12 Sep 2024 13:59:31 -0700
+
+intel-compute-runtime (24.31.30508.14-1) unstable; urgency=medium
+
+  * Line up packaging files with distro
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Wed, 04 Sep 2024 13:59:31 -0700
+
+intel-compute-runtime (24.31.30508.7-1) unstable; urgency=medium
+
+  * New upstream release.
+  * patches: Add fixes to build with gcc 14. (Closes: #1077948)
+  * install: bin/ocloc has a version suffix now.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 26 Aug 2024 16:32:42 +0300
+
+intel-compute-runtime (24.22.29735.21-1) unstable; urgency=medium
+
+  * New upstream release.
+  * typos.patch: Dropped, upstream.
+  * control: Bump igc/l0 build-deps.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 27 Jun 2024 15:19:13 +0300
+
+intel-compute-runtime (24.13.29138.7-1) unstable; urgency=medium
+
+  [ Timo Aaltonen ]
+  * New upstream release.
+  * typos.patch: Refreshed.
+  * control: Bump igc build-deps.
+
+  [ Steve Langasek ]
+  * Exclude _FORTIFY_SOURCE from dpkg-builflags to avoid a redefinition and
+    a build failure.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 17 Apr 2024 15:43:28 +0300
+
+intel-compute-runtime (23.43.27642.40-1) unstable; urgency=medium
+
+  * New upstream release.
+  * typos.patch: Refreshed.
+  * control: Bump igc build-depends.
+  * control: Migrate to pkgconf.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 26 Feb 2024 13:46:36 +0200
+
+intel-compute-runtime (23.35.27191.9-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 06 Oct 2023 13:06:45 +0300
+
+intel-compute-runtime (23.35~git20230926-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #1051189, #1052513)
+  * Split packaging so ocloc and level zero files are in their own
+    packages.
+  * rules: Add get-orig-source target.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 27 Sep 2023 11:28:03 +0300
+
+intel-compute-runtime (23.13.26032.7-1) experimental; urgency=medium
+
+  * New upstream release.
+  * control: Bump igc build-depends.
+  * control: Bump libze-dev build-dep.
+  * rules: Skip unit tests.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Sat, 15 Apr 2023 00:09:48 +0300
+
+intel-compute-runtime (22.43.24595.41-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Enable level-zero, add libze-dev to build-depends.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 10 Jan 2023 16:49:25 +0200
+
+intel-compute-runtime (22.43.24595.35-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 08 Dec 2022 15:28:23 +0200
+
+intel-compute-runtime (22.39.24347-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 04 Oct 2022 16:53:29 +0300
+
+intel-compute-runtime (22.34.24023-2) unstable; urgency=medium
+
+  [ Andreas Beckmann ]
+  * Add salsa-ci.yml.
+
+  [ Timo Aaltonen ]
+  * control: Bump build-dep on igc.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 20 Sep 2022 15:36:21 +0300
+
+intel-compute-runtime (22.34.24023-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Drop i386, it's not supported anymore.
+  * typos.patch: Refreshed.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 26 Aug 2022 13:53:36 +0300
+
+intel-compute-runtime (22.31.23852-1) unstable; urgency=medium
+
+  * New upstream release.  (Closes: #1016951)
+  * patches: Drop correct-getters-in-generated-commands.diff (upstream),
+    refresh typos.patch.
+  * control: Bump i-g-c build-depends.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 15 Aug 2022 19:01:19 +0300
+
+intel-compute-runtime (22.14.22890-2) unstable; urgency=medium
+
+  * Merge changes from 21.32.20609-3.
+  * Upload to unstable.
+
+ -- Andreas Beckmann <anbe@debian.org>  Sat, 18 Jun 2022 03:46:24 +0200
+
+intel-compute-runtime (22.14.22890-1) experimental; urgency=medium
+
+  * New upstream release.
+  * correct-getters-in-generated-commands.diff: Fix XE_HP tests, drop
+    the cmake config to disable XE_HP support.
+  * patches: Refreshed, added a new file to typos.patch.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Sun, 10 Apr 2022 12:17:13 +0300
+
+intel-compute-runtime (22.13.22789-1) experimental; urgency=medium
+
+  [ Timo Aaltonen ]
+  * New upstream release.
+  * patches: Refreshed.
+  * control: Bump libigc1/libigdfcl-dev build-depends.
+  * rules: Disable XE_HP* support as the tests fail.
+
+  [ Andreas Beckmann ]
+  * control, rules: Tighten dependencies on the igc version used at build
+    time. Tighten dependencies on the llvm version used to build igc.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 06 Apr 2022 09:57:58 +0300
+
+intel-compute-runtime (21.32.20609-3) unstable; urgency=medium
+
+  * control, rules: Tighten dependencies on the igc version used at build
+    time. Tighten dependencies on the llvm version used to build igc.
+  * Manually activate the ldconfig trigger for unversioned libocloc.so.
+  * Enable all hardening flags.
+  * control: Bump policy to 4.6.1.
+
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 22 May 2022 14:47:21 +0200
+
+intel-compute-runtime (21.32.20609-2) unstable; urgency=medium
+
+  * control: Drop superfluous (Build-)Depends.  (Closes: #1004885)
+  * control: Set Architecture: any-amd64 any-i386.
+  * control: Switch to debhelper-compat (= 13).
+  * control: Set Rules-Requires-Root: no.
+  * control: Bump policy to 4.6.0.
+  * control, rules: Depend on the igc version used at build time.
+    (Closes: #994833)
+  * upstream/metadata: Add.
+  * tests/control: Add superficial build-needed autopkgtest to detect
+    incompatible intel-graphics-compiler builds.  (Closes: #998058)
+  * Fix typos.
+  * Update Lintian overrides.
+  * Add myself to Uploaders.
+
+ -- Andreas Beckmann <anbe@debian.org>  Thu, 17 Feb 2022 11:03:23 +0100
+
+intel-compute-runtime (21.32.20609-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Migrate to llvm 12.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 17 Aug 2021 16:29:29 +0300
+
+intel-compute-runtime (20.44.18297-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Migrate to llvm 11.
+  * control: Bump depends on IGC.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 13 Nov 2020 23:49:23 +0200
+
+intel-compute-runtime (20.37.17906-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Bump libigc-dev/libigdfcl-dev build-depends.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 22 Sep 2020 19:07:08 +0300
+
+intel-compute-runtime (20.13.16352-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Use debhelper-compat, bump to 12.
+  * control: Bump policy to 4.5.0.
+  * Build with llvm-10, bump dependencies. (LP: #1871345)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 08 Apr 2020 22:55:41 +0300
+
+intel-compute-runtime (20.02.15268-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Migrate to llvm9.
+  * control: Bump depends on opencl-clang, intel-graphics-compiler,
+    intel-gmmlib. (Closes: #946752)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 22 Jan 2020 16:05:09 +0200
+
+intel-compute-runtime (19.29.13530-1) unstable; urgency=medium
+
+  * Initial release (Closes: #926706)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 01 Aug 2019 12:26:37 +0300

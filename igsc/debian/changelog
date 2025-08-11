@@ -1,0 +1,55 @@
+igsc (0.9.5-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Version bump to 0.9.5
+  * Enable docs
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 10 Jan 2025 12:15:58 -0800
+
+igsc (0.9.4-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Version bump to 0.9.4 
+
+ -- Shane McKee <shane.mckee@canonical.com>  Thu, 05 Dec 2024 06:29:41 +0800
+
+igsc (0.9.3-0ubuntu1~24.10~ppa5) oracular; urgency=medium
+
+  * Change maintainer to Ubuntu Devs
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 04 Oct 2024 19:41:52 +0800
+
+igsc (0.9.3-0ubuntu1~24.10~ppa4) oracular; urgency=medium
+
+  * Rebuild due to newer version of metee
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Mon, 30 Sep 2024 16:47:02 -0700
+
+igsc (0.9.3-0ubuntu1~24.10~ppa3) oracular; urgency=medium
+
+  * Change igsc package name to intel-gsc to meet package name requirements 
+
+ -- Shane McKee <shane.mckee@canonical.com>  Wed, 18 Sep 2024 18:01:31 +0800
+
+igsc (0.9.3-0ubuntu1~24.10~ppa2) oracular; urgency=medium
+
+  * Add proper depends for libigsc-dev 
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Mon, 16 Sep 2024 13:39:00 -0700
+
+igsc (0.9.3-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Bump version to 0.9.3
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 13 Sep 2024 16:17:05 +0800
+
+igsc (0.8.16-0ubuntu1~24.10~ppa2) oracular; urgency=medium
+
+  * Added Provides for intel-gsc
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 30 Aug 2024 01:10:40 +0800
+
+igsc (0.8.16-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Initial release.
+
+ -- Pedro Kopper <pedro.kopper@canonical.com>  Wed, 14 Aug 2024 15:46:51 -0300
+

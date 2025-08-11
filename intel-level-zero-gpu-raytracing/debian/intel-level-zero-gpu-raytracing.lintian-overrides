@@ -1,0 +1,2 @@
+shared-library-lacks-version
+no-symbols-control-file usr/lib/x86_64-linux-gnu/libze_intel_gpu_raytracing.so

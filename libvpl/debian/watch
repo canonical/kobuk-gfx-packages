@@ -1,0 +1,8 @@
+version=4
+
+# This method will require bumping v3 to v3 whenever there is a SEMVER major
+# Change. Intel switched versioning schemes, so the switch from v2023\. down to
+# v2\. makes for some regex that is more complex than it's worth
+opts="dversionmangle=auto" \
+   https://github.com/intel/libvpl/tags \
+   (?:.*?/)v2\.(?!600\.0)(\d[\-+\.:\~\d]*)\.tar\.gz
