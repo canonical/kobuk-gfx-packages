@@ -1,0 +1,47 @@
+metrics-library (1.0.196-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Bump version to 1.0.196 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 23 Apr 2025 09:07:24 -0700
+
+metrics-library (1.0.178-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Bump version to 1.0.178 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 24 Oct 2024 11:48:04 -0700
+
+metrics-library (1.0.173-1-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update source to 1.0.173
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Tue, 01 Oct 2024 11:19:36 -0700
+
+metrics-library (1.0.166-973-0ubuntu1~24.04~ppa3) oracular; urgency=medium
+
+  * Add cleanup for build dir
+
+ -- Shane McKee <shane.mckee@canonical.com>  Wed, 18 Sep 2024 21:12:11 +0800
+
+metrics-library (1.0.166-973-0ubuntu1~24.10~ppa2) oracular; urgency=medium
+
+  * Bumped the source down to match the version number
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 06 Sep 2024 21:17:30 +0800
+
+metrics-library (1.0.166-973-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version number
+
+ -- Shane McKee <shane.mckee@canonical.com>  Mon, 6 Sep 2024 04:24:58 +0400
+
+metrics-library (1.0.166-973~24.04) UNRELEASED; urgency=medium
+
+  * build dev-build
+
+ -- Markova Maria <maria.markova@intel.com>  Mon, 19 Aug 2024 12:08:53 -0700
+
+metrics-library (1.0.1) experimental; urgency=medium
+
+  * Initial release in Agama.
+
+ -- Markova Maria <maria.markova@intel.com>  Wed, 06 Mar 2020 13:00:31 +0100

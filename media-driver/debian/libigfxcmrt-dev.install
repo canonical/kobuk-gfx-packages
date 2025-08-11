@@ -1,0 +1,3 @@
+usr/include/igfxcmrt
+usr/lib/*/libigfxcmrt.so
+usr/lib/*/pkgconfig/igfxcmrt.pc

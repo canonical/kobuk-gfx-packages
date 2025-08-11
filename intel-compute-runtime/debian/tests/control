@@ -1,0 +1,3 @@
+Test-Command: ocloc --help
+Architecture: amd64
+Restrictions: build-needed, superficial

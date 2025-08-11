@@ -1,0 +1,53 @@
+Source: onevpl-intel-gpu
+Section: graphics
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Timo Aaltonen <tjaalton@debian.org>
+Build-Depends: debhelper-compat (= 13),
+ cmake,
+ libdrm-dev,
+ libpciaccess-dev,
+ libva-dev (>= 2.22),
+ libx11-dev,
+ libx11-xcb-dev,
+ libxcb-dri3-dev,
+ libxcb-present-dev,
+ pkg-config
+Standards-Version: 4.6.0
+Homepage: https://github.com/oneapi-src/oneVPL-intel-gpu
+Vcs-Browser: https://salsa.debian.org/debian/onevpl-intel-gpu
+Vcs-Git: https://salsa.debian.org/debian/onevpl-intel-gpu.git
+Rules-Requires-Root: no
+
+Package: libmfx-gen1
+Architecture: amd64
+Conflicts: libmfx-gen1.2
+Replaces: libmfx-gen1.2
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Intel oneVPL GPU Runtime -- shared library
+ Intel oneVPL GPU Runtime is a Runtime implementation of oneVPL
+ API for Intel Gen GPUs. Runtime provides access to hardware-accelerated
+ video decode, encode and filtering.
+ .
+ Supported video encoders: HEVC, AVC, MPEG-2, JPEG, VP9  
+ Supported video decoders: HEVC, AVC, VP8, VP9, MPEG-2, VC1, JPEG, AV1  
+ Supported video pre-processing filters: Color Conversion, Deinterlace, Denoise,
+ Resize, Rotate, Composition  
+ .
+ This package includes the shared library.
+
+Package: libmfx-gen-dev
+Architecture: amd64
+Depends: ${misc:Depends},
+ libmfx-gen1 (= ${binary:Version})
+Description: Intel oneVPL GPU Runtime -- development files
+ Intel oneVPL GPU Runtime is a Runtime implementation of oneVPL
+ API for Intel Gen GPUs. Runtime provides access to hardware-accelerated
+ video decode, encode and filtering.
+ .
+ Supported video encoders: HEVC, AVC, MPEG-2, JPEG, VP9  
+ Supported video decoders: HEVC, AVC, VP8, VP9, MPEG-2, VC1, JPEG, AV1  
+ Supported video pre-processing filters: Color Conversion, Deinterlace, Denoise,
+ Resize, Rotate, Composition  
+ .
+ This package includes files for development.

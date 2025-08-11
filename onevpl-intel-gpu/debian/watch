@@ -1,0 +1,9 @@
+# Compulsory line, this is a version 4 file
+version=4
+
+# PGP signature mangle, so foo.tar.gz has foo.tar.gz.sig
+#opts="pgpsigurlmangle=s%$%.sig%"
+
+opts="filenamemangle=s%(?:.*?)?intel-onevpl-?(\d[\d.]*)\.tar\.gz%onevpl-intel-gpu-$1.tar.gz%" \
+   https://github.com/oneapi-src/oneVPL-intel-gpu/tags \
+   (?:.*?/)?intel-onevpl-?(\d[\d.]*)\.tar\.gz

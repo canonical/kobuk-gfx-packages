@@ -1,0 +1,37 @@
+metrics-discovery (1.14.180-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update version to 1.14.180 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 23 Apr 2025 09:22:04 -0700
+
+metrics-discovery (1.13.178-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Bump version to 1.13.178
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 24 Oct 2024 12:23:05 -0700
+
+metrics-discovery (1.13.176-991-0ubuntu1~24.10~ppa2) oracular; urgency=medium
+
+  * Fixed in changelog: Sept 6th was a Friday  
+  * Remove debian/files file from git
+
+ -- Shane McKee <shane.mckee@canonical.com>  Wed, 18 Sep 2024 20:40:37 +0800
+
+metrics-discovery (1.13.176-991-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Change versioning to match the PPA version scheme 
+  * Changed to oracular
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 06 Sep 2024 03:33:27 +0400
+
+metrics-discovery (1.13.176-991~24.04) UNRELEASED; urgency=medium
+
+  * build dev-build
+
+ -- Markova Maria <maria.markova@intel.com>  Thu, 05 Sep 2024 12:27:40 -0700
+
+metrics-discovery (1.5.112) experimental; urgency=medium
+
+  * Initial release in Agama.
+
+ -- Markova Maria <maria.markova@intel.com>  Wed, 04 Mar 2020 15:02:31 +0100

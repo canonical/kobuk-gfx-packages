@@ -1,0 +1,119 @@
+onevpl-intel-gpu (25.3.0-0ubuntu1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.3.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 21 Jul 2025 12:36:12 -0700
+
+onevpl-intel-gpu (25.2.6-0ubuntu1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.2.6
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 07 Jul 2025 15:22:10 -0700
+
+onevpl-intel-gpu (25.2.4-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.2.4
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 10 Jun 2025 10:55:32 -0700
+
+onevpl-intel-gpu (25.2.2-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.2.2
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 16 May 2025 15:30:19 -0700
+
+onevpl-intel-gpu (25.2.1-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Update to version 25.2.1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 01 May 2025 11:36:14 -0700
+
+onevpl-intel-gpu (25.2.0-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Version update to 25.2.0 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 15 Apr 2025 15:14:58 -0700
+
+onevpl-intel-gpu (25.1.0-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Version bump to 25.1.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 21 Jan 2025 13:49:28 -0800
+
+onevpl-intel-gpu (24.4.3-0ubuntu1~24.10~ppa2) oracular; urgency=medium
+
+  * Fix libmfxgen1.2 pkg conflicts and libva dependency version
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 05 Dec 2024 15:38:43 -0800
+
+onevpl-intel-gpu (24.4.3-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Version bump to 24.4.3
+
+ -- Shane McKee <shane.mckee@canonical.com>  Thu, 05 Dec 2024 07:30:21 +0800
+
+onevpl-intel-gpu (24.4.2-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * bump version to 24.4.2
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 01 Nov 2024 09:26:32 -0700
+
+onevpl-intel-gpu (24.3.4-0ubuntu1~24.04~ppa1) noble; urgency=medium
+
+  * bump version to 24.3.4
+  * build for noble 
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 18 Oct 2024 14:21:05 -0700
+
+onevpl-intel-gpu (24.3.1-0ubuntu1~24.10~ppa2) oracular; urgency=medium
+
+  * Update build flags and pkg name
+
+ -- piandro-mobl2 <pavel.androniychuk@intel.com>  Fri, 20 Sep 2024 12:23:13 -0700
+
+onevpl-intel-gpu (24.3.1-0ubuntu1~24.10~ppa1) oracular; urgency=medium
+
+  * Bump version to 24.3.1 
+  * Specify oracular version
+
+ -- Shane McKee <shane.mckee@canonical.com>  Fri, 09 Aug 2024 19:25:28 +0800
+
+onevpl-intel-gpu (23.2.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * patches: Drop upstreamed patch.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 19 Jun 2023 16:38:15 +0300
+
+onevpl-intel-gpu (22.6.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * patches: Make the build reproducible. (Closes: #1006455)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 08 Dec 2022 14:00:45 +0200
+
+onevpl-intel-gpu (22.5.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 18 Oct 2022 14:25:41 +0300
+
+onevpl-intel-gpu (22.5.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 26 Aug 2022 13:32:21 +0300
+
+onevpl-intel-gpu (22.3.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * 0001-build-fix-build-with-gcc-11-197.patch: Dropped, upstream.
+  * install: Add enctools.so.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 04 Apr 2022 13:28:40 +0300
+
+onevpl-intel-gpu (22.2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1005347)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 11 Feb 2022 21:16:10 +0200

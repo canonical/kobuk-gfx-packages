@@ -1,0 +1,27 @@
+#!/usr/bin/make -f
+
+include /usr/share/dpkg/pkg-info.mk
+include /usr/share/dpkg/architecture.mk
+
+ifeq (,$(findstring linux,$(DEB_HOST_ARCH_OS)))
+# wayland is only available on linux-any
+confflags += -Dwith_wayland=no
+endif
+
+%:
+	dh $@ -Smeson
+
+override_dh_autoreconf:
+	# do nothing
+
+override_dh_auto_configure:
+	dh_auto_configure -- $(confflags)
+
+execute_before_dh_auto_build:
+	cd debian/dh && pod2man -c Debhelper -r '' dh_libva dh_libva.1
+
+execute_before_dh_shlibdeps:
+	echo "libva 2 libva2 (>= $(DEB_VERSION_UPSTREAM)), libva2 (<< $(DEB_VERSION_UPSTREAM).1)" > debian/shlibs.local
+
+override_dh_installchangelogs:
+	dh_installchangelogs NEWS
