@@ -1,14 +1,20 @@
 intel-compute-runtime (25.31.34666.3-1~25.04~ppa2) plucky; urgency=medium
 
-  * Update pkging files to include zes_intel_gpu_sysman.h 
+  * Update pkging files to include zes_intel_gpu_sysman.h
 
  -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 11 Aug 2025 14:23:48 -0700
 
 intel-compute-runtime (25.31.34666.3-1~25.04~ppa1) plucky; urgency=medium
 
-  * Update to version 25.31.34666.3 
+  * Update to version 25.31.34666.3
 
  -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 11 Aug 2025 14:00:23 -0700
+
+intel-compute-runtime (25.27.34303.9-1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.2.7.34303.9
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 06 Aug 2025 22:02:21 -0700
 
 intel-compute-runtime (25.27.34303.9-1~25.04~ppa1) plucky; urgency=medium
 
