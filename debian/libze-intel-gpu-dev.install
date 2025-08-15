@@ -1,5 +1,0 @@
-usr/include/level_zero/driver_experimental/*.h
-usr/include/level_zero/zet_intel_gpu_debug.h
-usr/include/level_zero/ze_intel_gpu.h
-usr/include/level_zero/ze_stypes.h
-usr/include/level_zero/zes_intel_gpu_sysman.h
