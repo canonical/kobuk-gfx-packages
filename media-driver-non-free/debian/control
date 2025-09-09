@@ -10,7 +10,7 @@ Build-Depends:
  dh-sequence-libva,
  cmake,
  libdrm-dev,
- libigdgmm-dev (>= 22.7.2),
+ libigdgmm-dev (>= 22.8.0),
  libva-dev (>= 2.22),
  libx11-dev,
  ninja-build,
