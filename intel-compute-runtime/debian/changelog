@@ -1,3 +1,16 @@
+intel-compute-runtime (25.35.35096.9-1~25.04~ppa2) plucky; urgency=medium
+
+  * Update symbols file
+  * Add additional header files into ze gpu dev pkg
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 16 Sep 2025 15:52:32 -0700
+
+intel-compute-runtime (25.35.35096.9-1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.35.35096.9
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 16 Sep 2025 13:59:35 -0700
+
 intel-compute-runtime (25.31.34666.3-1~25.04~ppa2) plucky; urgency=medium
 
   * Update pkging files to include zes_intel_gpu_sysman.h 
