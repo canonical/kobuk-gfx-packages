@@ -1,3 +1,15 @@
+intel-media-driver (25.3.4-0ubuntu1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.3.4
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 12 Sep 2025 13:57:17 -0700
+
+intel-media-driver (25.3.3-0ubuntu1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.3.3
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 28 Aug 2025 11:34:11 -0700
+
 intel-media-driver (25.3.2-0ubuntu1~25.04~ppa1) plucky; urgency=medium
 
   * Update to version 25.3.2

@@ -38,8 +38,8 @@ Description: Intel(R) XPU System Management Interface(xpu-smi) is a free and
 Package: xpu-smi
 Architecture: amd64
 Depends:
- libze1 (>= 1.21.9),
- libze-intel-gpu1 (>= 25.22.33944.13),
+ libze1 (>= 1.23.1),
+ libze-intel-gpu1 (>= 25.31.34666.3),
  libxpum1 (=${binary:Version}),
  ${shlibs:Depends},
  ${misc:Depends}
@@ -48,8 +48,8 @@ Recommends:
  intel-metrics-library (>=1.0.196)
 Suggests:
  libmfx-tools (>=22.5.0),
- intel-media-va-driver-non-free (>=25.2.6),
- libmfxgen1 (>=25.2.6)
+ intel-media-va-driver-non-free (>=25.3.2),
+ libmfxgen1 (>=25.3.2)
 Description: Intel(R) XPU System Management Interface(xpu-smi) is a free and
  open-source solution built on top of the Intel(R) oneAPI Level Zero interface
  for monitoring and managing Intel Data Center GPUs. It is a fully-fledged
