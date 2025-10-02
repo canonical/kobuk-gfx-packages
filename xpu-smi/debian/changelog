@@ -1,3 +1,9 @@
+xpumanager (1.3.3-0ubuntu1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 1.3.3
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 02 Oct 2025 09:57:29 -0700
+
 xpumanager (1.3.2-0ubuntu1~25.04~ppa2) plucky; urgency=medium
 
   * Rebuild with the right source
