@@ -11,8 +11,6 @@ export DEB_BUILD_MAINT_OPTIONS	= hardening=+all
 %:
 	dh $@ --builddir build/
 
-override_dh_strip:
-
 override_dh_auto_configure:
 	dh_auto_configure -- \
 		-DCMAKE_BUILD_TYPE=Release \
