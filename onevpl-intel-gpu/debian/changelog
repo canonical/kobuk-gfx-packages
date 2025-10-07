@@ -1,3 +1,9 @@
+onevpl-intel-gpu (25.4.0-0ubuntu1~25.04~ppa1) plucky; urgency=medium
+
+  * Update to version 25.4.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 24 Sep 2025 14:29:42 -0700
+
 onevpl-intel-gpu (25.3.4-0ubuntu1~25.04~ppa1) plucky; urgency=medium
 
   * Update to version 25.3.4
