@@ -1,3 +1,10 @@
+onevpl-intel-gpu (25.4.2-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to version 25.4.2
+  * Sync pkg name to debian upstream name libmfx-gen1.2
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 23 Oct 2025 17:02:00 -0700
+
 onevpl-intel-gpu (25.4.0-0ubuntu1~25.04~ppa1) plucky; urgency=medium
 
   * Update to version 25.4.0

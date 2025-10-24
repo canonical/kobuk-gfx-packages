@@ -1,3 +1,10 @@
+metee (5.0.0-1~25.10~ppa2) questing; urgency=medium
+
+  * Update to version 5.0.0
+  * Replace libmetee4 with libmetee5
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 23 Oct 2025 09:55:43 -0700
+
 metee (4.3.0-0ubuntu1~24.10~ppa2) oracular; urgency=medium
 
   * Initial release

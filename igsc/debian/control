@@ -22,7 +22,7 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- libmetee4,
+ libmetee5,
  libigsc0 (= ${binary:Version}), 
  libudev1,
 Description: Intel(R) Graphics System Controller Firmware Update Library
