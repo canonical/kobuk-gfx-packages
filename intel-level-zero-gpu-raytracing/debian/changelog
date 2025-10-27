@@ -1,3 +1,9 @@
+intel-level-zero-gpu-raytracing (1.2.1-0ubuntu1~25.10~ppa1) questing; urgency=medium
+
+  * Update version to 1.2.1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 24 Oct 2025 11:41:21 -0700
+
 intel-level-zero-gpu-raytracing (1.1.0-0ubuntu1~24.10~ppa1) oracular; urgency=medium
 
   [ Sven Woop ]

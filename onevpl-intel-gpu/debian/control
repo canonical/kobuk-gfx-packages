@@ -19,10 +19,11 @@ Vcs-Browser: https://salsa.debian.org/debian/onevpl-intel-gpu
 Vcs-Git: https://salsa.debian.org/debian/onevpl-intel-gpu.git
 Rules-Requires-Root: no
 
-Package: libmfx-gen1
+Package: libmfx-gen1.2
 Architecture: amd64
-Conflicts: libmfx-gen1.2
-Replaces: libmfx-gen1.2
+Provides: libmfx-gen1
+Replaces: libmfx-gen1
+Conflicts: libmfx-gen1
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Intel oneVPL GPU Runtime -- shared library
  Intel oneVPL GPU Runtime is a Runtime implementation of oneVPL
@@ -39,7 +40,7 @@ Description: Intel oneVPL GPU Runtime -- shared library
 Package: libmfx-gen-dev
 Architecture: amd64
 Depends: ${misc:Depends},
- libmfx-gen1 (= ${binary:Version})
+ libmfx-gen1.2 (= ${binary:Version})
 Description: Intel oneVPL GPU Runtime -- development files
  Intel oneVPL GPU Runtime is a Runtime implementation of oneVPL
  API for Intel Gen GPUs. Runtime provides access to hardware-accelerated

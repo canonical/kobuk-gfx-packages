@@ -1,3 +1,10 @@
+intel-compute-runtime (25.40.35563.4-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to version 25.40.35563.4
+  * Update libze1-gpu symbols
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 24 Oct 2025 09:07:12 -0700
+
 intel-compute-runtime (25.35.35096.9-1~25.04~ppa3) plucky; urgency=medium
 
   * Remove dh_strip from rules

@@ -1,3 +1,9 @@
+igsc (0.9.5-1~25.10~ppa2) questing; urgency=medium
+
+  * Rebuild with libmetee5
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 23 Oct 2025 10:24:31 -0700
+
 igsc (0.9.5-0ubuntu1~24.10~ppa1) oracular; urgency=medium
 
   * Version bump to 0.9.5
