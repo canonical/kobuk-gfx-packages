@@ -1,3 +1,15 @@
+intel-compute-runtime (25.40.35563.4-1~25.10~ppa3) questing; urgency=medium
+
+  * Rebuild with igc v2.20.4
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 06 Nov 2025 09:46:30 -0800
+
+intel-compute-runtime (25.40.35563.4-1~25.10~ppa2) questing; urgency=medium
+
+  * Rebuild with updated igc llvm16 support
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 28 Oct 2025 13:31:02 -0700
+
 intel-compute-runtime (25.40.35563.4-1~25.10~ppa1) questing; urgency=medium
 
   * Update to version 25.40.35563.4
