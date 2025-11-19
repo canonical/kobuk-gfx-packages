@@ -1,3 +1,9 @@
+intel-media-driver-non-free (25.4.4-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to version 25.4.4
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 18 Nov 2025 13:19:39 -0800
+
 intel-media-driver-non-free (25.4.2-1~25.10~ppa1) questing; urgency=medium
 
   * Update to version 25.4.2
