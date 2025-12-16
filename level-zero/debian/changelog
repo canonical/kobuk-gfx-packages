@@ -1,3 +1,15 @@
+level-zero-loader (1.26.2-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to v1.26.2
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 16 Dec 2025 11:09:48 -0800
+
+level-zero-loader (1.26.1-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to v1.26.1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 15 Dec 2025 13:55:12 -0800
+
 level-zero-loader (1.25.1-1~25.10~ppa1) questing; urgency=medium
 
   * Update to v1.25.1
