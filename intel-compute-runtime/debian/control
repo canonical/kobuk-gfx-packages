@@ -6,11 +6,11 @@ XSBC-Original-Maintainer: Debian OpenCL Maintainers <pkg-opencl-devel@lists.alio
 Build-Depends: debhelper (>= 11),
  cmake,
  libigsc-dev (>= 0.9.5),
- libigc-dev (>= 2.22.2),
- libigdfcl-dev (>= 2.22.2),
+ libigc-dev (>= 2.24.8),
+ libigdfcl-dev (>= 2.24.8),
  libigdgmm-dev (>= 22.8.2),
  libva-dev,
- libze-dev (>= 1.25.1),
+ libze-dev (>= 1.26.1),
  libnl-3-dev,
  libnl-route-3-dev,
  libudev-dev,
@@ -26,16 +26,19 @@ Replaces: intel-level-zero-gpu
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- libigc2 (>= 2.22.2),
- libigdfcl2 (>= 2.22.2),
+ libigc2 (>= 2.24.8),
+ libigdfcl2 (>= 2.24.8),
  libnl-3-200,
  libnl-route-3-200,
  libze1
-Description: Intel(R) Graphics Compute Runtime for oneAPI Level Zero.
- Level Zero is the primary low-level interface for language and runtime
- libraries. Level Zero offers fine-grain control over accelerators
- capabilities, delivering a simplified and low-latency interface to
- hardware, and efficiently exposing hardware capabilities to applications.
+Description: Intel oneAPI L0 support implementation for Intel GPUs -- shared library
+ Implementation for the Intel GPUs of the oneAPI L0 specification - which
+ provides direct-to-metal interfaces to offload accelerator devices. Its
+ programming interface can be tailored to any device needs and can be
+ adapted to support broader set of languages features such as function
+ pointers, virtual functions, unified memory, and I/O capabilities.
+ .
+ This package contains the shared library.
 
 Package: libze-intel-gpu-dev
 Architecture: amd64
@@ -46,8 +49,14 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  libze-intel-gpu1
-Description: Intel(R) Graphics Compute Runtime for oneAPI Level Zero
- This package containes the development headers
+Description: Intel oneAPI L0 support implementation for Intel GPUs -- devel files
+ Implementation for the Intel GPUs of the oneAPI L0 specification - which
+ provides direct-to-metal interfaces to offload accelerator devices. Its
+ programming interface can be tailored to any device needs and can be
+ adapted to support broader set of languages features such as function
+ pointers, virtual functions, unified memory, and I/O capabilities.
+ .
+ This package contains the development headers for libze-intel-gpu1.
 
 Package: intel-opencl-icd
 Architecture: amd64
@@ -55,8 +64,8 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  ocl-icd-libopencl1,
- libigc2 (>= 2.22.2),
- libigdfcl2 (>= 2.22.2),
+ libigc2 (>= 2.24.8),
+ libigdfcl2 (>= 2.24.8),
 Breaks:
  intel-opencl
 Replaces:
@@ -64,21 +73,20 @@ Replaces:
 Provides:
  opencl-icd
 Description: Intel graphics compute runtime for OpenCL
- The Intel(R) Graphics Compute Runtime for OpenCL(TM) is a open source
+ The Intel(R) Graphics Compute Runtime for OpenCL(TM) is an open source
  project to converge Intel's development efforts on OpenCL(TM) compute
  stacks supporting the GEN graphics hardware architecture.
  .
  Supported platforms - OpenCL 3.0, Production:
- - DG1
- - Intel Core Processors with Gen9 GPU (Skylake)
- - Intel Core Processors with Gen9.5 GPU (Kaby Lake, Coffee Lake)
- - Intel Core Processors with Gen11 GPU (Ice Lake)
- - Intel Core Processors with Xe LP (Gen12) GPU (Tiger Lake, Rocket Lake)
- - Intel Core Processors with Xe (Gen12.2) GPU (Alder Lake)
- - Intel Atom Processors with Gen11 GPU (Elkhart Lake)
- Supported platforms - OpenCL 3.0, Maintenance:
- - Intel Core Processors with Gen8 GPU (Broadwell)
- - Intel Atom Processors with Gen9 GPU (Apollo Lake, Gemini Lake)
+  - DG1
+  - Intel Core Processors with Xe LP (Gen12) GPU (Tiger Lake, Rocket Lake)
+  - Intel Core Processors with Xe (Gen12.2) GPU (Alder Lake)
+  - Intel Core Processors with Xe LPG GPU (Meteor Lake, Arrow Lake)
+  - Intel Core Processors with Xe LPGPLUS GPU (Arrow Lake)
+  - Intel Core Processors with Xe HPG GPU (DG2)
+  - Intel Core Processors with Xe HPC GPU (Ponte Vecchio)
+  - Intel Core Processors with Xe2 LPG GPU (Lunar Lake)
+  - Intel Core Processors with Xe2 HPG GPU (Battlemage)
 
 Package: intel-ocloc
 Architecture: any-amd64

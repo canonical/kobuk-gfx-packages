@@ -1,3 +1,15 @@
+intel-compute-runtime (25.48.36300.8-1~25.10~ppa2) questing; urgency=medium
+
+  * Update descriptions with supported HW
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 18 Dec 2025 10:50:07 -0800
+
+intel-compute-runtime (25.48.36300.8-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to version 25.48.36300.8
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 15 Dec 2025 16:10:10 -0800
+
 intel-compute-runtime (25.44.36015.5-1~25.10~ppa1) questing; urgency=medium
 
   * Update to version 25.44.36015.5

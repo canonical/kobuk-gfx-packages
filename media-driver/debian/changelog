@@ -1,3 +1,9 @@
+intel-media-driver (25.4.5-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to version 25.4.5
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 15 Dec 2025 14:27:36 -0800
+
 intel-media-driver (25.4.4-1~25.10~ppa1) questing; urgency=medium
 
   * Update to version 25.4.4
