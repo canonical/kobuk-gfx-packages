@@ -1,3 +1,9 @@
+metrics-discovery (1.14.183-1~25.10~ppa1) questing; urgency=medium
+
+  * Update version to 1.14.183
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 15 Dec 2025 13:44:38 -0800
+
 metrics-discovery (1.14.182-0ubuntu1~25.04~ppa1) plucky; urgency=medium
 
   * Update version to 1.14.182
