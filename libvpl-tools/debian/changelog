@@ -1,3 +1,9 @@
+libvpl-tools (1.5.0-1~25.10~ppa1) questing; urgency=medium
+
+  * Update version to 1.5.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 06 Jan 2026 14:19:54 -0800
+
 libvpl-tools (1.4.0-0ubuntu1~24.10~ppa1) oracular; urgency=medium
 
   * Update version to 1.4.0
