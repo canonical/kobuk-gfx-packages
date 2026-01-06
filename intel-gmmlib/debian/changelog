@@ -1,3 +1,9 @@
+intel-gmmlib (22.9.0-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to version 22.9.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 06 Jan 2026 13:49:55 -0800
+
 intel-gmmlib (22.8.2-0ubuntu1~25.04~ppa1) plucky; urgency=medium
 
   * Update to version 22.8.2

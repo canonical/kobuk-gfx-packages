@@ -1,3 +1,9 @@
+libvpl-disp (1:2.16.0-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to version 2.16.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 06 Jan 2026 14:15:32 -0800
+
 libvpl-disp (1:2.15.0-0ubuntu1~24.10~ppa1) oracular; urgency=medium
 
   * Update to version 2.15.0
