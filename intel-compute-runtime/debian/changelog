@@ -1,3 +1,9 @@
+intel-compute-runtime (26.01.36711.4-1~25.10~ppa1) questing; urgency=medium
+
+  * Update to version 26.01.36711.4
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 12 Jan 2026 11:25:21 -0800
+
 intel-compute-runtime (25.48.36300.8-1~25.10~ppa2) questing; urgency=medium
 
   * Update descriptions with supported HW
