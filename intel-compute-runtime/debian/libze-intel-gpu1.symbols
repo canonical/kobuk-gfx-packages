@@ -181,6 +181,7 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zeIntelKernelGetBinaryExp@Base 24.39.31294.10
  zeIntelMediaCommunicationCreate@Base 25.40.35563.4
  zeIntelMediaCommunicationDestroy@Base 25.40.35563.4
+ zeIntelMemMapDeviceMemToHost@Base 26.01.36711.4
  zeKernelCreate@Base 24.35.30872.14
  zeKernelDestroy@Base 24.35.30872.14
  zeKernelGetAllocationPropertiesExp@Base 25.48.36300.5
@@ -202,6 +203,7 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zeMemAllocShared@Base 24.35.30872.14
  zeMemCloseIpcHandle@Base 24.35.30872.14
  zeMemFree@Base 24.35.30872.14
+ zeMemFreeExt@Base 26.01.36711.4
  zeMemGetAddressRange@Base 24.35.30872.14
  zeMemGetAllocProperties@Base 24.35.30872.14
  zeMemGetAtomicAccessAttributeExp@Base 24.35.30872.14
@@ -361,6 +363,10 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zesGetVFManagementExpProcAddrTable@Base 24.35.30872.14
  zesInit@Base 24.35.30872.14
  zesIntelDevicePciLinkSpeedUpdateExp@Base 25.35.35096.9
+ zesIntelRasGetConfigExp@Base 26.01.36711.4
+ zesIntelRasGetStateExp@Base 26.01.36711.4
+ zesIntelRasGetSupportedCategoriesExp@Base 26.01.36711.4
+ zesIntelRasSetConfigExp@Base 26.01.36711.4
  zesLedGetProperties@Base 24.35.30872.14
  zesLedGetState@Base 24.35.30872.14
  zesLedSetColor@Base 24.35.30872.14
@@ -549,10 +555,12 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zexCommandListGetVariable@Base 25.35.35096.9
  zexCommandListGetVariablesList@Base 25.35.35096.9
  zexCommandListLoadNativeBinary@Base 25.35.35096.9
+ zexCommandListSetCleanupCallback@Base 26.01.36711.4
  zexCommandListSetLabel@Base 25.35.35096.9
  zexCommandListTempMemGetSize@Base 25.35.35096.9
  zexCommandListTempMemSet@Base 25.35.35096.9
  zexCommandListTempMemSetEleCount@Base 25.35.35096.9
+ zexCommandListVerifyMemory@Base 26.01.36711.4
  zexCounterBasedEventCloseIpcHandle@Base 25.40.35563.4
  zexCounterBasedEventCreate2@Base 25.40.35563.4
  zexCounterBasedEventCreate@Base 25.40.35563.4
