@@ -68,6 +68,7 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zeContextMakeMemoryResident@Base 24.35.30872.14
  zeDeviceCanAccessPeer@Base 24.35.30872.14
  zeDeviceGet@Base 24.35.30872.14
+ zeDeviceGetAggregatedCopyOffloadIncrementValue@Base 26.05.37020.3
  zeDeviceGetCacheProperties@Base 24.35.30872.14
  zeDeviceGetCommandQueueGroupProperties@Base 24.35.30872.14
  zeDeviceGetComputeProperties@Base 24.35.30872.14
@@ -101,6 +102,11 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zeDriverGetProperties@Base 24.35.30872.14
  zeDriverRTASFormatCompatibilityCheckExp@Base 24.35.30872.14
  zeDriverRTASFormatCompatibilityCheckExt@Base 25.35.35096.9
+ zeEventCounterBasedCloseIpcHandle@Base 26.05.37020.3
+ zeEventCounterBasedCreate@Base 26.05.37020.3
+ zeEventCounterBasedGetDeviceAddress@Base 26.05.37020.3
+ zeEventCounterBasedGetIpcHandle@Base 26.05.37020.3
+ zeEventCounterBasedOpenIpcHandle@Base 26.05.37020.3
  zeEventCreate@Base 24.35.30872.14
  zeEventDestroy@Base 24.35.30872.14
  zeEventGetEventPool@Base 24.35.30872.14
@@ -178,7 +184,6 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zeInit@Base 24.35.30872.14
  zeInitDrivers@Base 24.52.32224.5
  zeIntelGetDriverVersionString@Base 24.35.30872.14
- zeIntelKernelGetBinaryExp@Base 24.39.31294.10
  zeIntelMediaCommunicationCreate@Base 25.40.35563.4
  zeIntelMediaCommunicationDestroy@Base 25.40.35563.4
  zeIntelMemMapDeviceMemToHost@Base 26.01.36711.4
@@ -210,6 +215,7 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zeMemGetFileDescriptorFromIpcHandleExp@Base 24.35.30872.14
  zeMemGetIpcHandle@Base 24.35.30872.14
  zeMemGetIpcHandleFromFileDescriptorExp@Base 24.35.30872.14
+ zeMemGetIpcHandleWithProperties@Base 26.05.37020.3
  zeMemGetPitchFor2dImage@Base 25.40.35563.4
  zeMemOpenIpcHandle@Base 24.35.30872.14
  zeMemPutIpcHandle@Base 24.35.30872.14
@@ -224,6 +230,7 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zeModuleGetKernelNames@Base 24.35.30872.14
  zeModuleGetNativeBinary@Base 24.35.30872.14
  zeModuleGetProperties@Base 24.35.30872.14
+ zePhysicalMemGetProperties@Base 26.05.37020.3
  zeRTASBuilderBuildExp@Base 24.35.30872.14
  zeRTASBuilderBuildExt@Base 25.35.35096.9
  zeRTASBuilderCommandListAppendCopyExt@Base 25.35.35096.9
@@ -281,6 +288,7 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zesDevicePciGetProperties@Base 24.35.30872.14
  zesDevicePciGetState@Base 24.35.30872.14
  zesDevicePciGetStats@Base 24.35.30872.14
+ zesDevicePciLinkSpeedUpdateExt@Base 26.05.37020.3
  zesDeviceProcessesGetState@Base 24.35.30872.14
  zesDeviceReadOverclockState@Base 24.35.30872.14
  zesDeviceReset@Base 24.35.30872.14
@@ -573,9 +581,6 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zexEventGetDeviceAddress@Base 25.40.35563.4
  zexIntelAllocateNetworkInterrupt@Base 25.40.35563.4
  zexIntelReleaseNetworkInterrupt@Base 25.40.35563.4
- zexKernelGetArgumentSize@Base 25.35.35096.9
- zexKernelGetArgumentType@Base 25.35.35096.9
- zexKernelGetBaseAddress@Base 24.35.30872.14
  zexKernelSetArgumentVariable@Base 25.35.35096.9
  zexKernelSetVariableGroupSize@Base 25.35.35096.9
  zexMemFreeRegisterCallbackExt@Base 25.40.35563.4
