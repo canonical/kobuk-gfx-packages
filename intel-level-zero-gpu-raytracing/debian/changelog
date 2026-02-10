@@ -1,3 +1,10 @@
+intel-level-zero-gpu-raytracing (1.2.2-1~25.10~ppa1) questing; urgency=medium
+
+  * Update version to 1.2.2
+  * Switch TBB to "inject_headers" for better compatiblity
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 10 Feb 2026 10:08:45 -0800
+
 intel-level-zero-gpu-raytracing (1.2.1-0ubuntu1~25.10~ppa1) questing; urgency=medium
 
   * Update version to 1.2.1
