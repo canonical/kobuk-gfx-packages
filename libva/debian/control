@@ -20,11 +20,10 @@ Build-Depends:
  ninja-build,
  perl:any,
  pkgconf,
-Standards-Version: 4.7.0
+Standards-Version: 4.7.2
 Homepage: https://github.com/intel/libva
 Vcs-Git: https://salsa.debian.org/multimedia-team/libva.git
 Vcs-Browser: https://salsa.debian.org/multimedia-team/libva
-Rules-Requires-Root: no
 
 Package: libva-dev
 Section: libdevel
@@ -70,6 +69,7 @@ Provides:
  libva-driver-abi-1.20,
  libva-driver-abi-1.21,
  libva-driver-abi-1.22,
+ libva-driver-abi-1.23
 Description: Video Acceleration (VA) API for Linux -- runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
  which enables and provides access to graphics hardware (GPU) acceleration for
