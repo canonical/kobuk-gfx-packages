@@ -1,0 +1,6 @@
+version=4
+opts="\
+    compression=bz2, \
+    repacksuffix=+ds1, \
+    dversionmangle=s/\+ds\d*$//" \
+  https://github.com/intel/@PACKAGE@/tags .*/refs/tags/@ANY_VERSION@\.tar\.gz

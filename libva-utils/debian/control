@@ -1,0 +1,45 @@
+Source: libva-utils
+Section: utils
+Priority: optional
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders:
+ Sebastian Ramacher <sramacher@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ gawk,
+ libdrm-dev,
+ libva-dev (>= 2.6),
+ libwayland-dev [linux-any],
+ libx11-dev,
+ pkgconf
+Standards-Version: 4.7.2
+Homepage: https://github.com/intel/libva-utils
+Vcs-Git: https://salsa.debian.org/multimedia-team/libva-utils.git
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libva-utils
+Rules-Requires-Root: no
+
+Package: vainfo
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: Video Acceleration (VA) API for Linux -- info program
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the vainfo program.
+
+Package: test-va-api
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: Video Acceleration (VA) test binary for Linux -- gtest program
+ .
+ This package provides the test-va-api program.
