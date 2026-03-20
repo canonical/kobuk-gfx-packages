@@ -1,3 +1,15 @@
+intel-compute-runtime (26.09.37435.1-1~25.10~ppa2) questing; urgency=medium
+
+  * New version 26.09.37435.1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 16 Mar 2026 16:00:40 -0700
+
+intel-compute-runtime (26.05.37020.3-1~25.10~ppa3) questing; urgency=medium
+
+  * Rebuild with corrected igc dependencies for ocloc
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 12 Mar 2026 12:37:31 -0700
+
 intel-compute-runtime (26.05.37020.3-1~25.10~ppa2) questing; urgency=medium
 
   * Rebuild with Opaque pointers ON from IGC
