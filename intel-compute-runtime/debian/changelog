@@ -1,3 +1,15 @@
+intel-compute-runtime (26.09.37435.10-1~25.10~ppa1) questing; urgency=medium
+
+  * New version 26.09.37435.10
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 27 Mar 2026 08:06:48 -0700
+
+intel-compute-runtime (26.09.37435.6-1~25.10~ppa1) questing; urgency=medium
+
+  * New version 26.09.37435.6
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 25 Mar 2026 08:30:38 -0700
+
 intel-compute-runtime (26.09.37435.1-1~25.10~ppa2) questing; urgency=medium
 
   * New version 26.09.37435.1
