@@ -6,8 +6,8 @@ XSBC-Original-Maintainer: Debian OpenCL Maintainers <pkg-opencl-devel@lists.alio
 Build-Depends: debhelper (>= 11),
  cmake,
  libigsc-dev (>= 0.9.5),
- libigc-dev (>= 2.30.1),
- libigdfcl-dev (>= 2.30.1),
+ libigc-dev (>= 2.30.3),
+ libigdfcl-dev (>= 2.30.3),
  libigdgmm-dev (>= 22.9.0),
  libva-dev,
  libze-dev (>= 1.28.0),
@@ -26,8 +26,8 @@ Replaces: intel-level-zero-gpu
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- libigc2 (>= 2.30.1),
- libigdfcl2 (>= 2.30.1),
+ libigc2 (>= 2.30.3),
+ libigdfcl2 (>= 2.30.3),
  libnl-3-200,
  libnl-route-3-200,
  libze1
@@ -64,8 +64,8 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  ocl-icd-libopencl1,
- libigc2 (>= 2.30.1),
- libigdfcl2 (>= 2.30.1),
+ libigc2 (>= 2.30.3),
+ libigdfcl2 (>= 2.30.3),
 Breaks:
  intel-opencl
 Replaces:
@@ -92,8 +92,8 @@ Package: intel-ocloc
 Architecture: any-amd64
 Depends: ${shlibs:Depends},
  ${misc:Depends},
- libigc2 (>= 2.30.1),
- libigdfcl2 (>= 2.30.1)
+ libigc2 (>= 2.30.3),
+ libigdfcl2 (>= 2.30.3)
 Breaks: intel-opencl-icd (<< 24.31.30508.14)
 Replaces: intel-opencl-icd (<< 24.31.30508.14)
 Description: Tool for managing Intel Compute GPU device binary format
