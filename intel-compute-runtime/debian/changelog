@@ -1,3 +1,11 @@
+intel-compute-runtime (26.14.37833.4-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 26.14.37833.4
+  * rules: add skip unit tests
+  * control: update dependencies and drop unnecessary build depends with libnl
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 23 Apr 2026 11:22:07 -0700
+
 intel-compute-runtime (26.09.37435.12-1~25.10~ppa1) questing; urgency=medium
 
   * New version 26.09.37435.12

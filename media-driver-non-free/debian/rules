@@ -3,12 +3,14 @@
 include /usr/share/dpkg/architecture.mk
 
 export DEB_BUILD_MAINT_OPTIONS=future=+lfs
+export DEB_CXXFLAGS_MAINT_APPEND += -Wno-error=array-bounds
 
 %:
 	dh $@ -Scmake+ninja
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
+		-DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
 		-DINSTALL_DRIVER_SYSCONF=OFF \
 		-DENABLE_KERNELS=ON \
 		-DENABLE_NONFREE_KERNELS=ON \
