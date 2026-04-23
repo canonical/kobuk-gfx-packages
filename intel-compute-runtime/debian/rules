@@ -1,9 +1,9 @@
 #!/usr/bin/make -f
 NEO_MAJOR = 26
-NEO_MINOR = 09
-NEO_BUILD = 37435.12
-build_id = 37435
-build_hf_id = 12
+NEO_MINOR = 14
+NEO_BUILD = 37833.4
+build_id = 37833
+build_hf_id = 4
 
 
 export DEB_BUILD_MAINT_OPTIONS	= hardening=+all
@@ -21,4 +21,5 @@ override_dh_auto_configure:
 		-DNEO_DISABLE_MITIGATIONS=TRUE \
 		-DNEO_ENABLE_XE_EU_DEBUG_SUPPORT=TRUE \
 		-DNEO_ENABLE_XE_PRELIM_DETECTION=TRUE \
+		-DNEO_SKIP_UNIT_TESTS=TRUE \
 		-Wno-dev

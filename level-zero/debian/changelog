@@ -1,6 +1,12 @@
+level-zero-loader (1.28.2-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release v1.28.2
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 23 Apr 2026 11:29:10 -0700
+
 level-zero-loader (1.28.0-1~25.10~ppa1) questing; urgency=medium
 
-  * New release v2.28.0
+  * New release v1.28.0
 
  -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 16 Mar 2026 16:05:01 -0700
 
