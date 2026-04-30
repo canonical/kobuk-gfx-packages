@@ -1,3 +1,9 @@
+intel-media-driver-non-free (26.2.0-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 26.2.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 27 Apr 2026 11:21:35 -0700
+
 intel-media-driver-non-free (26.1.6-1~26.04~ppa2) resolute; urgency=medium
 
   * rules: update cmake policy to 3.5

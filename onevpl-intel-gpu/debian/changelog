@@ -1,3 +1,9 @@
+onevpl-intel-gpu (26.2.0-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 26.2.0
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 27 Apr 2026 11:25:19 -0700
+
 onevpl-intel-gpu (26.1.4-1~25.10~ppa1) questing; urgency=medium
 
   * New version 26.1.4
