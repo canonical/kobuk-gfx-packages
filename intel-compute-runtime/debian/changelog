@@ -1,3 +1,9 @@
+intel-compute-runtime (26.18.38308.1-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 26.18.38308.1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 11 May 2026 12:04:59 -0700
+
 intel-compute-runtime (26.14.37833.4-1~26.04~ppa1) resolute; urgency=medium
 
   * New version 26.14.37833.4
