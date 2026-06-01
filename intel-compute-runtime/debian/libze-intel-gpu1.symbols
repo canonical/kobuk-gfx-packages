@@ -38,8 +38,12 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zeCommandListGetOrdinal@Base 24.35.30872.14
  zeCommandListHostSynchronize@Base 24.35.30872.14
  zeCommandListImmediateAppendCommandListsExp@Base 24.35.30872.14
+ zeCommandListImmediateGetFlags@Base 26.18.38308.1
  zeCommandListImmediateGetIndex@Base 24.35.30872.14
+ zeCommandListImmediateGetMode@Base 26.18.38308.1
+ zeCommandListImmediateGetPriority@Base 26.18.38308.1
  zeCommandListIsImmediate@Base 24.35.30872.14
+ zeCommandListIsMutableExp@Base 26.18.38308.1
  zeCommandListReset@Base 24.35.30872.14
  zeCommandListUpdateMutableCommandKernelsExp@Base 24.52.32224.5
  zeCommandListUpdateMutableCommandSignalEventExp@Base 24.35.30872.14
@@ -48,8 +52,11 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  zeCommandQueueCreate@Base 24.35.30872.14
  zeCommandQueueDestroy@Base 24.35.30872.14
  zeCommandQueueExecuteCommandLists@Base 24.35.30872.14
+ zeCommandQueueGetFlags@Base 26.18.38308.1
  zeCommandQueueGetIndex@Base 24.35.30872.14
+ zeCommandQueueGetMode@Base 26.18.38308.1
  zeCommandQueueGetOrdinal@Base 24.35.30872.14
+ zeCommandQueueGetPriority@Base 26.18.38308.1
  zeCommandQueueSynchronize@Base 24.35.30872.14
  zeContextCreate@Base 24.35.30872.14
  zeContextCreateEx@Base 24.35.30872.14
