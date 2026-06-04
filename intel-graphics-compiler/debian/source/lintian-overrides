@@ -1,0 +1,14 @@
+# test data
+very-long-line-length-in-source-file * > * [IGC/Compiler/tests/VectorPreProcess/test_no_crash.ll:*]
+
+# generated file
+very-long-line-length-in-source-file * > * [IGC/ZEBinWriter/zebin/source/autogen/ZEInfo.hpp:*]
+
+# from vendored llvm
+# Reported here https://bugs.llvm.org/show_bug.cgi?id=32962
+# No activity, silent it to avoid false positive in automation
+license-problem-convert-utf-code [llvm-project/llvm/lib/Support/ConvertUTF.cpp]
+source-contains-prebuilt-windows-binary [llvm-project/lldb/unittests/SymbolFile/DWARF/Inputs/test-dwarf.exe]
+source-contains-prebuilt-windows-binary [llvm-project/lldb/unittests/SymbolFile/PDB/Inputs/test-pdb-types.exe]
+source-contains-prebuilt-windows-binary [llvm-project/lldb/unittests/SymbolFile/PDB/Inputs/test-pdb.exe]
+source-contains-prebuilt-windows-binary [llvm-project/llvm/unittests/DebugInfo/PDB/Inputs/SimpleTest.exe]

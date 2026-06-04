@@ -5,6 +5,7 @@
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-		-DENABLE_DOCS=ON \
-		-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DENABLE_DOCS=ON
 

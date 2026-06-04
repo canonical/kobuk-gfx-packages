@@ -1,0 +1,3 @@
+usr/include
+usr/lib/*/libigdfcl.so
+usr/lib/*/pkgconfig

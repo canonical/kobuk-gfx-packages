@@ -1,3 +1,10 @@
+igsc (1.2.0-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 1.2.0
+  * Update pkging to reflect new major version 1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 04 Jun 2026 11:52:45 -0700
+
 igsc (0.9.5-1~25.10~ppa2) questing; urgency=medium
 
   * Rebuild with libmetee5

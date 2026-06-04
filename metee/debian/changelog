@@ -1,3 +1,11 @@
+metee (6.2.1-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 6.2.1
+  * Rules: drop fortify source strip
+  * Update pkg to new version 6
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 04 Jun 2026 09:17:55 -0700
+
 metee (5.0.0-1~25.10~ppa2) questing; urgency=medium
 
   * Update to version 5.0.0

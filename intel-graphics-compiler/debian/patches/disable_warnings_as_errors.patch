@@ -1,0 +1,47 @@
+--- a/IGC/CMakeLists.txt
++++ b/IGC/CMakeLists.txt
+@@ -892,6 +892,8 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+           -Wno-unknown-pragmas
+           -fPIC
+           -Bsymbolic
++          -Wno-error
++          -Wno-all
+     )
+     if(_igc_compiler_is_gnu)
+       igc_config_flag_apply_settings(
+@@ -946,6 +948,8 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+             -Wno-unknown-pragmas
+             -fPIC
+             -Bsymbolic
++            -Wno-error
++            -Wno-all
+       )
+     elseif("${IGC_OPTION__ARCHITECTURE_TARGET}" STREQUAL "LinuxRISCV")
+       igc_config_flag_apply_settings(
+@@ -978,6 +982,8 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+             -Wno-unknown-pragmas
+             -fPIC
+             -Bsymbolic
++            -Wno-error
++            -Wno-all
+       )
+     else()
+       igc_config_flag_apply_settings(
+@@ -1018,6 +1024,8 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+             -Wno-unknown-pragmas
+             -fPIC
+             -Bsymbolic
++            -Wno-error
++            -Wno-all
+       )
+       if(CMAKE_BUILD_TYPE STREQUAL "Debug" AND W_ERROR_ALL STREQUAL "1")
+         igc_config_flag_apply_settings(
+@@ -1078,6 +1086,8 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+         -finline
+         -fkeep-inline-functions
+         -msse4.2
++        -Wno-error
++        -Wno-all
+     )
+     if(NOT CMAKE_C_COMPILER_VERSION LESS "4.0")
+       igc_config_flag_apply_settings(

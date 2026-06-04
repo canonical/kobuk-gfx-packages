@@ -1,12 +1,11 @@
 #!/usr/bin/make -f
 
-export DEB_CPPFLAGS_MAINT_STRIP = -D_FORTIFY_SOURCE=3
-
 %:
 	dh $@ --buildsystem=cmake
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-	-DBUILD_DOCS=YES \
-	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH) \
-	-DBUILD_SHARED_LIBS=YES
+	-DCMAKE_BUILD_TYPE=Release \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DBUILD_SHARED_LIBS=ON \
+	-DBUILD_DOCS=YES

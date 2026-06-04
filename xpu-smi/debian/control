@@ -25,7 +25,7 @@ Homepage: https://github.com/intel/xpumanager
 Package: libxpum1
 Architecture: amd64
 Depends:
-  libigsc0 (>=0.9.5),
+  libigsc1 (>=1.2.0),
   ${shlibs:Depends},
   ${misc:Depends}
 Description: Intel(R) XPU System Management Interface(xpu-smi) is a free and

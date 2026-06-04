@@ -1,0 +1,4 @@
+disable_warnings_as_errors.patch
+drop-ciso-include.diff
+dont-patch-llvm-test.diff
+drop-docs.diff

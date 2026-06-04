@@ -1,0 +1,30 @@
+--- a/llvm-project/clang/CMakeLists.txt
++++ b/llvm-project/clang/CMakeLists.txt
+@@ -525,7 +525,6 @@ endif()
+ option(CLANG_INCLUDE_DOCS "Generate build targets for the Clang docs."
+   ${LLVM_INCLUDE_DOCS})
+ if( CLANG_INCLUDE_DOCS )
+-  add_subdirectory(docs)
+ endif()
+ 
+ # Custom target to install all clang libraries.
+--- a/llvm-project/lld/CMakeLists.txt
++++ b/llvm-project/lld/CMakeLists.txt
+@@ -207,7 +207,6 @@ if (LLVM_INCLUDE_TESTS)
+   add_subdirectory(test)
+ endif()
+ 
+-add_subdirectory(docs)
+ add_subdirectory(COFF)
+ add_subdirectory(ELF)
+ add_subdirectory(MachO)
+--- a/llvm-project/llvm/CMakeLists.txt
++++ b/llvm-project/llvm/CMakeLists.txt
+@@ -1231,7 +1231,6 @@ if( LLVM_INCLUDE_TESTS )
+ endif()
+ 
+ if (LLVM_INCLUDE_DOCS)
+-  add_subdirectory(docs)
+ endif()
+ 
+ add_subdirectory(cmake/modules)

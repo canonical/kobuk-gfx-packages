@@ -1,0 +1,460 @@
+intel-graphics-compiler2 (2.34.4-1~26.04) resolute; urgency=medium
+
+  * New version 2.34.4
+  * Update opencl/spirv-llvm-translator tags
+  * patches: Drop 0001-Fix-sporadic-buildbreak-caused-by-missing-dependency,
+    applied upstream.
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 01 Jun 2026 10:39:39 -0700
+
+intel-graphics-compiler2 (2.28.4-4) unstable; urgency=medium
+
+  * rules: Disable LTO.
+  * patches: Add a dependency to fix the build order.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 13 Mar 2026 08:53:49 +0200
+
+intel-graphics-compiler2 (2.28.4-3) unstable; urgency=medium
+
+  * rules: Set git email & username (FTBFS).
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 10 Mar 2026 19:01:37 +0200
+
+intel-graphics-compiler2 (2.28.4-2) unstable; urgency=medium
+
+  * drop-docs.diff: Don't try to build llvm docs.
+  * rules: Don't clean llvm docs in the future, not worth it.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 10 Mar 2026 08:54:01 +0200
+
+intel-graphics-compiler2 (2.28.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * patches: Refreshed.
+  * control, rules: Vendor llvm 16.0.6 and vc-intrinsics.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 09 Mar 2026 21:42:32 +0200
+
+intel-graphics-compiler2 (2.24.13-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 13 Feb 2026 11:05:33 +0200
+
+intel-graphics-compiler2 (2.22.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * rules: Fix build with cmake4. (Closes: #1113047)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 15 Jan 2026 11:17:05 +0200
+
+intel-graphics-compiler2 (2.20.5-1) unstable; urgency=medium
+
+  [ Pavel Androniychuk ]
+  * Non-maintainer upload.
+  * New upstream release
+  * rules: add IGC_PATCH to build flags
+  * control: update name of spirv-tools pkg to spirv-tools-dev
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 18 Dec 2025 19:18:19 +0200
+
+intel-graphics-compiler2 (2.18.5-1) unstable; urgency=medium
+
+  [ Pavel Androniychuk ]
+  * New upstream release
+  * rules: remove LTO strip
+  * patches: add disable_warnings_as_errors.patch
+
+  [ Timo Aaltonen ]
+  * watch: Migrated to version 5.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 27 Oct 2025 10:30:04 +0200
+
+intel-graphics-compiler2 (2.16.0-2) unstable; urgency=medium
+
+  * rules: Fix broken buildflags.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 25 Aug 2025 21:50:34 +0300
+
+intel-graphics-compiler2 (2.16.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Bump build-dep on vc-intrinsics.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 25 Aug 2025 19:02:46 +0300
+
+intel-graphics-compiler2 (2.15.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * rules: Clean up unwanted .so symlinks, but include libigdfcl.so.
+  * libigdfcl-dev.lintian-overrides: Dropped, leftover from the old
+    version.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 11 Aug 2025 11:58:10 +0300
+
+intel-graphics-compiler2 (2.9.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Bump build-depends on intel-vc-intrinsics-14-dev.
+  * rules: Disable lto.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 21 Mar 2025 09:47:10 +0200
+
+intel-graphics-compiler2 (2.5.12-1) unstable; urgency=medium
+
+  * New upstream release.
+  * unset-fortify-source.diff: Dropped, not needed anymore.
+  * rules: Enable USE_KHRONOS_SPIRV_TRANSLATOR_IN_SC.
+  * patches: Drop typos.patch, which was partly applied upstream and
+    rest of it considered obsolete.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 11 Feb 2025 09:11:50 +0200
+
+intel-graphics-compiler2 (2.5.10-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 17 Jan 2025 11:24:34 +0200
+
+intel-graphics-compiler2 (2.3.1-3) unstable; urgency=medium
+
+  * control: Add Conflicts on libigdfcl-dev to libigdfcl2-dev. (Closes:
+    #1089814)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 17 Dec 2024 09:14:18 +0200
+
+intel-graphics-compiler2 (2.3.1-2) experimental; urgency=medium
+
+  * Fork the source package to allow backports to old releases without
+    breaking legacy support.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 12 Dec 2024 18:04:23 +0200
+
+intel-graphics-compiler (2.3.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * watch: Updated.
+  * patches: Refreshed.
+  * Rename library packages, drop libigc-dev which would now be empty.
+  * rules: Drop the spirv translator flag, on by default.
+  * control: Bump Provides.
+  * control: Drop obsolete Breaks.
+  * control: Drop i386 from the archs, the supported platforms are now
+    limited to Gen12 and up.
+  * control: Add C/R/B on libigc-tools.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 11 Dec 2024 10:07:06 +0200
+
+intel-graphics-compiler (1.0.17791.18-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 03 Dec 2024 09:30:11 +0200
+
+intel-graphics-compiler (1.0.17791.16-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 05 Nov 2024 09:46:20 +0200
+
+intel-graphics-compiler (1.0.17537.20-2) unstable; urgency=medium
+
+  * Enable a build flag to link to the external spirv translator.
+    (LP: #2085370)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 01 Nov 2024 15:41:28 +0200
+
+intel-graphics-compiler (1.0.17537.20-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 10 Sep 2024 20:05:35 +0300
+
+intel-graphics-compiler (1.0.17537.16-1) unstable; urgency=medium
+
+  * New upstream release.
+  * patches: Drop upstreamed patch.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Sat, 07 Sep 2024 10:36:59 +0300
+
+intel-graphics-compiler (1.0.17384.9-1) unstable; urgency=medium
+
+  * New upstream release.
+  * patches: Fix build with gcc-14.
+  * rules: Override dh_dwz, FTBFS.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 14 Aug 2024 16:49:44 +0300
+
+intel-graphics-compiler (1.0.17193.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 27 Jun 2024 10:04:00 +0300
+
+intel-graphics-compiler (1.0.16510.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Bump build-dep on intel-vc-intrinsics.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 16 Apr 2024 21:10:43 +0300
+
+intel-graphics-compiler (1.0.15468.25-2) unstable; urgency=medium
+
+  * unset-fortify-source.diff: Don't try to redefine _FORTIFY_SOURCE,
+    unset it first.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 29 Feb 2024 15:35:05 +0200
+
+intel-graphics-compiler (1.0.15468.25-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 26 Feb 2024 13:18:34 +0200
+
+intel-graphics-compiler (1.0.15136.3-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 26 Sep 2023 16:10:56 +0300
+
+intel-graphics-compiler (1.0.15136.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Add python3-mako to build-depends.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 15 Sep 2023 10:25:25 +0300
+
+intel-graphics-compiler (1.0.14896.8-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 11 Aug 2023 11:33:53 +0300
+
+intel-graphics-compiler (1.0.14382.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 19 Jun 2023 15:54:02 +0300
+
+intel-graphics-compiler (1.0.13822.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * patches: Drop upstreamed patches.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 14 Apr 2023 21:17:03 +0300
+
+intel-graphics-compiler (1.0.12504.6-1) unstable; urgency=medium
+
+  [ Andreas Beckmann ]
+  * Add salsa-ci.yml.
+  * Fix relative #include paths.
+
+  [ Timo Aaltonen ]
+  * New upstream release.
+  * patches: Disable typos.patch, it doesn't apply, is hard to maintain
+    and isn't sent upstream.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 06 Dec 2022 11:27:47 +0200
+
+intel-graphics-compiler (1.0.11702.15-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 04 Oct 2022 16:33:58 +0300
+
+intel-graphics-compiler (1.0.11702.4-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 20 Sep 2022 14:46:33 +0300
+
+intel-graphics-compiler (1.0.11702.4-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 20 Sep 2022 12:08:35 +0300
+
+intel-graphics-compiler (1.0.11702.1-3) experimental; urgency=medium
+
+  * control: Re-add version to intel-vc-intrinsics build-dep, it now provides
+    a versioned virtual package.
+  * control: Build with llvm 14.  (Closes: #1004883)
+  * Restore and refresh typos.patch.
+  * Update Lintian overrides.
+  * Upload to experimental.
+
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 30 Aug 2022 16:18:17 +0200
+
+intel-graphics-compiler (1.0.11702.1-2) unstable; urgency=medium
+
+  * control: Drop version from intel-vc-intrinsics build-dep, it doesn't
+    work for virtual packages.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 16 Aug 2022 12:06:44 +0300
+
+intel-graphics-compiler (1.0.11702.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * fix-using-prebuilt-spirv-tools.diff, typos.patch: Dropped, upstream.
+  * control: Bump intel-vc-intrinsics build-dep, add zlib1g-dev to build-
+    depends.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 15 Aug 2022 16:50:10 +0300
+
+intel-graphics-compiler (1.0.10840-2) unstable; urgency=medium
+
+  * Merge changes from 1.0.8744-4.
+  * Refresh typos.patch.
+  * Switch back to the virtual llvm-versioned intel-vc-intrinsics-NN-dev.
+  * Upload to unstable.
+
+ -- Andreas Beckmann <anbe@debian.org>  Thu, 16 Jun 2022 00:35:10 +0200
+
+intel-graphics-compiler (1.0.10840-1) experimental; urgency=medium
+
+  * New upstream release.
+  * control: Build-depend on non-virtual intel-vc-intrinsics-dev, bump
+    the version.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 08 Apr 2022 10:43:32 +0300
+
+intel-graphics-compiler (1.0.10778-1) experimental; urgency=medium
+
+  * New upstream release.
+  * patches: Drop upstreamed patches.
+  * control: Add libllvmspirvlib-12-dev to build-depends.
+  * control, patches, rules: Add spirv-headers and -tools to build-
+    depends, and add patches so they can be found.
+  * rules: Set the build type as Release.
+  * control, rules: Enable VC intrinsics.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 06 Apr 2022 09:49:09 +0300
+
+intel-graphics-compiler (1.0.8744-4) unstable; urgency=medium
+
+  * control: Switch back to llvm 11.
+  * Enable all hardening flags.
+  * control: Bump policy to 4.6.1.
+  * Fix typos.
+
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 17 May 2022 12:26:07 +0200
+
+intel-graphics-compiler (1.0.8744-3) unstable; urgency=medium
+
+  * control: Mark library and libdevel packages as Multi-Arch: same.
+  * control: Set Architecture: any-amd64 any-i386.
+  * control: Set Rules-Requires-Root: no.
+  * control: Build-depend on libopencl-clang-12-dev.
+  * upstream/metadata: Add.
+  * copyright: Add missing copyright information.
+  * rules: Do not ship /usr/include/*/*.txt.
+  * Add Lintian overrides.
+  * Add myself to Uploaders.
+
+ -- Andreas Beckmann <anbe@debian.org>  Wed, 16 Feb 2022 17:22:00 +0100
+
+intel-graphics-compiler (1.0.8744-2) unstable; urgency=medium
+
+  [ Andreas Beckmann ]
+  * rules: Parse llvm version from Build-Depends.
+  * control, rules: Provide virtual packages libigc1+llvm<version>,
+    libigdfcl1+llvm<version> to declare the supported llvm ABI.
+  * control: Add Breaks against intel-opencl-icd versions not depending on the
+    virtual llvm ABI packages.  (Closes: #994833)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 27 Oct 2021 12:37:29 +0300
+
+intel-graphics-compiler (1.0.8744-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop patches, upstream.
+  * drop-libunwind-search.diff: Don't try to search for libunwind
+    headers, we have prebuilt lld.
+  * 0001-Fixed-incorrect-cast-in-JointMatrixResolution.patch: Fix build.
+  * control: Bump debhelper to 13.
+  * control: Bump policy to 4.6.0.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 27 Oct 2021 12:17:29 +0300
+
+intel-graphics-compiler (1.0.8279-1) unstable; urgency=medium
+
+  * New upstream release.
+  * fix-ftbfs.diff: Dropped, upstream.
+  * rules: Fix config option to select the llvm version.
+  * control, rules: Build with llvm 12.
+  * fix-build-with-llvm-12.diff: Fix build with llvm-12.
+  * control: Add liblld-12-dev to build-depends.
+  * add-missing-include.diff: Add a missing include to fix build.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 16 Aug 2021 13:25:50 +0300
+
+intel-graphics-compiler (1.0.5353.1-2) unstable; urgency=medium
+
+  * fix-ftbfs.diff: Fix build with llvm 11.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 13 Nov 2020 10:37:53 +0200
+
+intel-graphics-compiler (1.0.5353.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 12 Nov 2020 13:26:59 +0200
+
+intel-graphics-compiler (1.0.5186-1) unstable; urgency=medium
+
+  * New upstream release.
+  * patches: Dropped, upstream.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 20 Oct 2020 11:55:27 +0300
+
+intel-graphics-compiler (1.0.5064-2) unstable; urgency=medium
+
+  * Migrate to llvm 11.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 01 Oct 2020 16:06:37 +0300
+
+intel-graphics-compiler (1.0.5064-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #966851)
+  * rules: Disable Vector Compute for now.
+  * rules: Remove misplaced license documentation before dh_missing.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 22 Sep 2020 11:44:06 +0300
+
+intel-graphics-compiler (1.0.3627-2) unstable; urgency=medium
+
+  * control, rules: Build with clang-10, bump libopencl-clang-dev build-dep.
+    (LP: #1871345)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 08 Apr 2020 18:50:39 +0300
+
+intel-graphics-compiler (1.0.3627-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Use debhelper-compat, bump to 12.
+  * control: Bump policy to 4.5.0.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Mon, 06 Apr 2020 11:18:55 +0300
+
+intel-graphics-compiler (1.0.3151-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 22 Jan 2020 15:31:00 +0200
+
+intel-graphics-compiler (1.0.3032-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Build with llvm9.
+  * fix-opencl-clang-soname.diff: Dropped, upstream.
+  * rules: Update clean target.
+  * control: Bump build-dep on libopencl-clang-dev.
+  * control: Migrate to python3.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 13 Dec 2019 10:37:49 +0200
+
+intel-graphics-compiler (1.0.9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #923945)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 01 Aug 2019 11:43:42 +0300
