@@ -1,3 +1,9 @@
+onevpl-intel-gpu (26.2.2-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 26.2.2
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Wed, 10 Jun 2026 18:22:14 +0200
+
 onevpl-intel-gpu (26.2.0-1~26.04~ppa1) resolute; urgency=medium
 
   * New version 26.2.0
