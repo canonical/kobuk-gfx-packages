@@ -1,10 +1,13 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --builddir build/
+	dh $@ --buildsystem=meson+ninja
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-		-DCMAKE_BUILD_TYPE=Release \
-		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DDAEMONLESS=ON
+		-Duse_system_levelzero=true \
+		-Duse_system_igsc=true
+
+override_dh_install:
+	dh_install --list-missing
+
