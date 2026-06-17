@@ -1,3 +1,9 @@
+level-zero-loader (1.28.6-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release v1.28.6
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 16 Jun 2026 14:12:37 -0700
+
 level-zero-loader (1.28.2-1~26.04~ppa1) resolute; urgency=medium
 
   * New release v1.28.2
