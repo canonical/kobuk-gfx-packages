@@ -1,10 +1,11 @@
 #!/usr/bin/make -f
-NEO_MAJOR = 26
-NEO_MINOR = 18
-NEO_BUILD = 38308.4
-build_id = 38308
-build_hf_id = 4
 
+VPARTS := $(subst ., ,$(firstword $(subst -, ,$(shell dpkg-parsechangelog -S Version))))
+NEO_MAJOR := $(word 1,$(VPARTS))
+NEO_MINOR := $(word 2,$(VPARTS))
+build_id := $(word 3,$(VPARTS))
+build_hf_id := $(word 4,$(VPARTS))
+NEO_BUILD := $(build_id).$(build_hf_id)
 
 export DEB_BUILD_MAINT_OPTIONS	= hardening=+all
 

@@ -1,0 +1,44 @@
+Index: src/IGC/CMakeLists.txt
+===================================================================
+--- src.orig/IGC/CMakeLists.txt
++++ src/IGC/CMakeLists.txt
+@@ -927,6 +927,7 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+           -Wno-unknown-pragmas
+           -fPIC
+           -Bsymbolic
++          -Wno-error=free-nonheap-object
+     )
+     if(_igc_compiler_is_gnu)
+       igc_config_flag_apply_settings(
+@@ -980,6 +981,7 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+             -Wno-unknown-pragmas
+             -fPIC
+             -Bsymbolic
++            -Wno-error=free-nonheap-object
+       )
+     elseif("${IGC_OPTION__ARCHITECTURE_TARGET}" STREQUAL "LinuxRISCV")
+       igc_config_flag_apply_settings(
+@@ -1011,6 +1013,7 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+             -Wno-unknown-pragmas
+             -fPIC
+             -Bsymbolic
++            -Wno-error=free-nonheap-object
+       )
+     else()
+       igc_config_flag_apply_settings(
+@@ -1050,6 +1053,7 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+             -Wno-unknown-pragmas
+             -fPIC
+             -Bsymbolic
++            -Wno-error=free-nonheap-object
+       )
+       if(CMAKE_BUILD_TYPE STREQUAL "Debug" AND W_ERROR_ALL STREQUAL "1")
+         igc_config_flag_apply_settings(
+@@ -1110,6 +1114,7 @@ foreach(_compilerFlagName IN ITEMS "CMAK
+         -finline
+         -fkeep-inline-functions
+         -msse4.2
++        -Wno-error=free-nonheap-object
+     )
+     if(NOT CMAKE_C_COMPILER_VERSION LESS "4.0")
+       igc_config_flag_apply_settings(

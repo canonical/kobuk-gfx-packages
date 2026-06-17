@@ -1,0 +1,83 @@
+Source: intel-graphics-compiler
+Section: libs
+Priority: optional
+Maintainer: Intel Graphics Team <linux-graphics@intel.com>
+XSBC-Original-Maintainer: Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>
+Uploaders:
+ Timo Aaltonen <tjaalton@debian.org>
+Build-Depends:
+ debhelper (>= 11),
+ bison,
+ build-essential,
+ cmake,
+ flex,
+ git,
+ libedit-dev,
+ lsb-release,
+ libxml2-dev,
+ libxml2-utils,
+ libz3-dev,
+ pkgconf,
+ python3,
+ python3-mako,
+ python3-pygments,
+ python3-yaml,
+ spirv-tools-dev | spirv-tools,
+ spirv-headers,
+ valgrind,
+ zlib1g-dev
+Standards-Version: 4.3.0
+Homepage: https://github.com/intel/intel-graphics-compiler
+
+Package: libigc2
+Architecture: amd64
+Replaces: libigc1
+Conflicts: libigc1
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: Core libraries for Intel(R) Graphics Compiler for OpenCL(TM)
+ The Intel(R) Graphics Compiler for OpenCL(TM) is based on LLVM and
+ designed to target Intel graphics hardware architecture for OpenCL(TM).
+
+Package: libigc-dev
+Architecture: amd64
+Depends:
+ libigc2 (= ${binary:Version}),
+ ${misc:Depends},
+Description: Core development files for Intel(R) Graphics Compiler for OpenCL(TM)
+ The Intel(R) Graphics Compiler for OpenCL(TM) is based on LLVM and
+ designed to target Intel graphics hardware architecture for OpenCL(TM).
+
+Package: libigc-tools
+Architecture: amd64
+Section: video
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: Media driver tools for Intel(R) Graphics Compiler for OpenCL(TM) 
+ The Intel(R) Graphics Compiler for OpenCL(TM) is based on LLVM and
+ designed to target Intel graphics hardware architecture for OpenCL(TM).
+
+Package: libigdfcl2
+Architecture: amd64
+Conflicts:
+ libopencl-clang16,
+ libigdfcl1
+Replaces: libigdfcl1
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: OpenCL library for Intel(R) Graphics Compiler for OpenCL(TM)
+ The Intel(R) Graphics Compiler for OpenCL(TM) is based on LLVM and
+ designed to target Intel graphics hardware architecture for OpenCL(TM).
+
+Package: libigdfcl-dev
+Architecture: amd64
+Section: libdevel
+Depends:
+ libigdfcl2 (= ${binary:Version}),
+ ${misc:Depends},
+Description: OpenCL development files for Intel(R) Graphics Compiler for OpenCL(TM)
+ The Intel(R) Graphics Compiler for OpenCL(TM) is based on LLVM and
+ designed to target Intel graphics hardware architecture for OpenCL(TM).

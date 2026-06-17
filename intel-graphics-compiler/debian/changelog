@@ -1,0 +1,115 @@
+intel-graphics-compiler (2.36.3-2~26.04) resolute; urgency=medium
+
+  * New release v2.36.3
+  * Sync packaging files with debian, this has many diffs
+  * Add SpirV-Headers and Tools, bundling them
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 17 Jun 2026 12:28:52 -0700
+
+intel-graphics-compiler (2.34.4-1260~26.04) resolute; urgency=medium
+
+  * New release v2.34.4
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 08 May 2026 10:46:48 -0700
+
+intel-graphics-compiler (2.32.7-1256~24.04) noble; urgency=medium
+
+  * New release v2.32.7
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 23 Apr 2026 10:47:47 -0700
+
+intel-graphics-compiler (2.30.3-1249~24.04) noble; urgency=medium
+
+  * New version 2.30.3
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 09 Apr 2026 14:22:23 -0700
+
+intel-graphics-compiler (2.30.2-1242~25.10) questing; urgency=medium
+
+  * New version 2.30.2
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 24 Mar 2026 17:29:49 -0700
+
+intel-graphics-compiler (2.30.1-1238~24.04) noble; urgency=medium
+
+  * Update version to v2.30.1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 16 Mar 2026 12:59:03 -0700
+
+intel-graphics-compiler (2.28.4-1228~24.04) noble; urgency=medium
+
+  * Enable Opaque Pointers
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 09 Feb 2026 08:56:52 -0800
+
+intel-graphics-compiler (2.28.4-1227~25.10) questing; urgency=medium
+
+  * Update version to v2.28.4
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 05 Feb 2026 15:00:05 -0800
+
+intel-graphics-compiler (2.27.10-1222~25.10) questing; urgency=medium
+
+  * Update version to v2.27.10
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 12 Jan 2026 08:40:54 -0800
+
+intel-graphics-compiler (2.24.8-1217~25.10) questing; urgency=medium
+
+  * Update version to v2.24.8
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 15 Dec 2025 12:18:24 -0800
+
+intel-graphics-compiler (2.22.2-1207~24.04) noble; urgency=medium
+
+  * Update version to v2.22.2
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 18 Nov 2025 09:12:28 -0800
+
+intel-graphics-compiler (2.20.3-1197~24.04) noble; urgency=medium
+
+  * Update version to v2.20.3
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 22 Oct 2025 09:27:50 -0700
+
+intel-graphics-compiler (2.18.5-1187~24.04) noble; urgency=medium
+
+  * Update version to v2.18.5
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 15 Sep 2025 09:17:07 -0700
+
+intel-graphics-compiler (2.1.14-1062~24.04) noble; urgency=medium
+
+  * Update version to 2.1.14
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 03 Dec 2024 17:01:34 -0800
+
+intel-graphics-compiler (1.0.17791.9-1029~24.04~ppa1) noble; urgency=medium
+
+  * bump version to 1.0.17791.9
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 08 Oct 2024 09:53:53 -0700
+
+intel-graphics-compiler (1.0.17537.24-996~24.10~ppa1) oracular; urgency=medium
+
+  * bump version to 1.0.17537.24
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 03 Oct 2024 13:32:54 -0700
+
+intel-graphics-compiler (1.0.3390-1) eoan; urgency=medium
+
+  * Update to 1.0.3390 commit:2abceafe90258a02f255d5f723a3673b611db4c4
+
+ -- Jacek Danecki <jacek.danecki@intel.com>  Tue, 03 Mar 2020 13:01:16 +0100
+
+intel-graphics-compiler (1.0.3041-1) eoan; urgency=medium
+
+  * Update to 1.0.3041 commit:510938ce77351f6e8ae92dcd37080b542b7a9e68
+
+ -- Jacek Danecki <jacek.danecki@intel.com>  Wed, 18 Dec 2019 11:07:16 +0100
+
+intel-graphics-compiler (1.0.9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #923945)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 01 Aug 2019 11:43:42 +0300

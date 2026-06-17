@@ -1,0 +1,85 @@
+#!/usr/bin/make -f
+
+export DEB_CXXFLAGS_MAINT_STRIP="-g"
+export DEB_CFLAGS_MAINT_STRIP="-g"
+export DEB_OBJCXXFLAGS_MAINT_STRIP="-g"
+export DEB_OBJCFLAGS_MAINT_STRIP="-g"
+
+FULL_PATH=$(shell cd ../ && pwd)
+include /usr/share/dpkg/pkg-info.mk
+
+IGC_PATCH		 = $(shell sed -n -r 's/.*[0-9]+\.[0-9]+\.([0-9]+).*/\1/p;q' debian/changelog)
+LLVM_VERSION		 = 16
+LLVM_UPSTREAM_VERSION	 = 16.0.6
+VC_INTRINSICS_REV        = v0.25.0
+OPENCL_CLANG_REV         = v16.0.12
+LLVM_SPIRV_REV           = v16.0.25
+SPIRV_HEADERS_SHA        = b8a32968473ce852a809b9de5f04f02a5a9dfa78
+SPIRV_TOOLS_SHA          = 28a883ba4c67f58a9540fb0651c647bb02883622
+VENDOR_DIRS = llvm-project vc-intrinsics SPIRV-Headers SPIRV-Tools
+TAR_OPTIONS = --sort=name --mtime=@0 --owner=0 --group=0 --numeric-owner --pax-option=exthdr.name=%d/PaxHeaders/%f,delete=atime,delete=ctime
+
+%:
+	dh $@ --builddir build/
+
+VENDOR_TARBALL_STUB = intel-graphics-compiler_$(DEB_VERSION_UPSTREAM).orig
+
+vendor-tarball-sanity-check:
+	for i in $(VENDOR_DIRS); do \
+		if [ -e ../$(VENDOR_TARBALL_STUB)-$${i}.tar.xz ]; then \
+		echo "../$(VENDOR_TARBALL_STUB)-$${i}.tar.xz already exists, bailing!"; exit 1; fi; done
+
+vendor-deps:
+	rm -rf $(VENDOR_DIRS)
+	git clone -b $(VC_INTRINSICS_REV) https://github.com/intel/vc-intrinsics vc-intrinsics
+	# try to get a minimal llvm tree, .git needs to be preserved
+	git clone -b llvmorg-$(LLVM_UPSTREAM_VERSION) --depth 50 --single-branch https://github.com/llvm/llvm-project llvm-project
+	rm -rf llvm-project/*/test
+	git clone -b $(OPENCL_CLANG_REV) https://github.com/intel/opencl-clang llvm-project/llvm/projects/opencl-clang
+	git clone -b $(LLVM_SPIRV_REV) https://github.com/KhronosGroup/SPIRV-LLVM-Translator llvm-project/llvm/projects/llvm-spirv
+	git clone https://github.com/KhronosGroup/SPIRV-Headers SPIRV-Headers
+	cd SPIRV-Headers && git checkout $(SPIRV_HEADERS_SHA) && cd ..
+	git clone https://github.com/KhronosGroup/SPIRV-Tools SPIRV-Tools
+	cd SPIRV-Tools && git checkout $(SPIRV_TOOLS_SHA) && cd ..
+	
+	for i in vc-intrinsics llvm-project/llvm/projects/opencl-clang llvm-project/llvm/projects/llvm-spirv SPIRV-Headers SPIRV-Tools; do \
+		rm -rf $${i}/.git; done
+
+vendor-tarball: vendor-tarball-sanity-check vendor-deps
+	for i in $(VENDOR_DIRS); do \
+		tar $(TAR_OPTIONS) -caf ../$(VENDOR_TARBALL_STUB)-$${i}.tar.xz $${i}; done
+
+set-gitconfig:
+	if [ -z "`git config get user.email`" ]; then cd llvm-project; git config user.email "BUILD@org.none"; fi
+	if [ -z "`git config get user.name `" ]; then cd llvm-project; git config user.name "BUILD";fi
+
+override_dh_clean:
+	for i in $(VENDOR_DIRS); do \
+		rm -f ../$${i}; done
+	dh_clean
+
+override_dh_auto_configure: set-gitconfig
+	for i in $(VENDOR_DIRS); do \
+		ln -sf $(CURDIR)/$${i} ..; done
+	
+	dh_auto_configure -- \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
+		-DFETCHCONTENT_FULLY_DISCONNECTED=ON \
+		-DIGC_OPTION__API_ENABLE_OPAQUE_POINTERS=ON \
+		-DIGC_OPTION__ARCHITECTURE_TARGET='Linux64' \
+		-DIGC_OPTION__LINK_KHRONOS_SPIRV_TRANSLATOR=ON \
+		-DIGC_OPTION__LLVM_MODE=Source \
+		-DIGC_OPTION__LLVM_PREFERRED_VERSION=$(LLVM_UPSTREAM_VERSION) \
+		-DLLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR=${FULL_PATH}/SPIRV-Headers \
+		-DIGC_OPTION__SPIRV_TOOLS_MODE=Source \
+		-DIGC_OPTION__USE_KHRONOS_SPIRV_TRANSLATOR_IN_SC=1 \
+		-DIGC_API_PATCH_VERSION=${IGC_PATCH} \
+		-Wno-dev
+
+override_dh_gencontrol:
+	dh_gencontrol -- \
+		-V'llvm:Version=$(LLVM_VERSION)'
+
+override_dh_dwz:
+

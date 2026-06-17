@@ -1,3 +1,11 @@
+intel-compute-runtime (26.22.38646.4-1~26.04~ppa3) resolute; urgency=medium
+
+  * New release 26.22.38646.4
+  * rules: auto pull version fields
+  * update symbols
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 18 Jun 2026 10:06:56 -0700
+
 intel-compute-runtime (26.18.38308.4-1~26.04~ppa1) resolute; urgency=medium
 
   * New version 26.18.38308.4
