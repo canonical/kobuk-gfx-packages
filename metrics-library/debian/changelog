@@ -1,3 +1,9 @@
+metrics-library (1.0.231-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 1.0.231
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 16 Jun 2026 14:00:12 -0700
+
 metrics-library (1.0.209-1~25.10~ppa1) questing; urgency=medium
 
   * Update version to 1.0.209

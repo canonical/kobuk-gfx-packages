@@ -1,3 +1,9 @@
+metrics-discovery (1.14.188-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 1.16.188
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Tue, 16 Jun 2026 13:58:22 -0700
+
 metrics-discovery (1.14.183-1~25.10~ppa1) questing; urgency=medium
 
   * Update version to 1.14.183
