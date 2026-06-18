@@ -1,30 +1,29 @@
-Source: xpumanager
+Source: xpumanager-legacy
 Section: utils
 Priority: optional
-Maintainer: Intel Graphics Team <linux-graphics@intel.com>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Build-Depends:
  debhelper (>= 11),
  autoconf,
- build-essential,
+ automake,
  cmake,
- libcli11-dev,
- libcurl4-openssl-dev,
- libhwloc-dev,
- libigsc-dev,
+ doxygen,
+ git,
  libpciaccess-dev,
  libtool,
+ liblua5.2-0,
  libudev-dev,
- libze-dev (>= 1.27.0),
- meson,
- ninja-build,
  pkgconf,
- pybind11-json-dev
+ python3-dev,
+ python3-pip,
+ libze-dev,
+ libigsc-dev,
+ libc6-dev,
 Standards-Version: 4.3.0
 Homepage: https://github.com/intel/xpumanager
 
-Package: libxpum2
+Package: libxpum1
 Architecture: amd64
-Replaces: libxpum1
 Depends:
   libigsc1 (>=1.2.0),
   ${shlibs:Depends},
@@ -36,21 +35,24 @@ Description: Intel(R) XPU System Management Interface(xpu-smi) is a free and
  firmware updating, and GPU configuration. It supports local command line
  interface and local library call interface for third-party solution integration
 
-Package: xpu-smi
-Breaks: xpu-smi-legacy
+Package: xpu-smi-legacy
+Provides: xpu-smi (= ${binary:Version})
+Replaces: xpu-smi (<= 1.3.7)
+Breaks: xpu-smi (<= 1.3.7), xpu-smi (>= 2.0)
 Architecture: amd64
 Depends:
- libze1 (>= 1.27.0),
- libze-intel-gpu1,
- libxpum2 (=${binary:Version}),
+ libze1 (>= 1.24.1),
+ libze-intel-gpu1 (>= 25.31.34666.3),
+ libxpum1 (=${binary:Version}),
  ${shlibs:Depends},
  ${misc:Depends}
 Recommends:
- intel-metrics-discovery,
- intel-metrics-library
+ intel-metrics-discovery (>=1.14.182),
+ intel-metrics-library (>=1.0.200)
 Suggests:
- intel-media-va-driver-non-free,
- libmfx-gen1.2
+ libvpl-tools,
+ intel-media-va-driver-non-free (>=25.3.2),
+ libmfx-gen1.2 (>=25.3.2)
 Description: Intel(R) XPU System Management Interface(xpu-smi) is a free and
  open-source solution built on top of the Intel(R) oneAPI Level Zero interface
  for monitoring and managing Intel Data Center GPUs. It is a fully-fledged
@@ -58,12 +60,14 @@ Description: Intel(R) XPU System Management Interface(xpu-smi) is a free and
  firmware updating, and GPU configuration. It supports local command line
  interface and local library call interface for third-party solution integration
 
-Package: libxpum-dev
-Breaks: libxpum-dev-legacy
+Package: libxpum-dev-legacy
+Provides: libxpum-dev (= ${binary:Version})
+Replaces: libxpum-dev (<= 1.3.7)
+Breaks: libxpum-dev (<= 1.3.7), xpu-smi (>= 2.0)
 Section: libdevel
 Architecture: amd64
 Depends:
- libxpum2,
+ libxpum1,
  ${shlibs:Depends},
  ${misc:Depends}
 Description: Intel(R) XPU System Management Interface(xpu-smi) is a free and
