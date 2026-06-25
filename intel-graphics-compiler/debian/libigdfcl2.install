@@ -1,0 +1,5 @@
+usr/lib/*/libigdfcl.so.2.*
+usr/lib/*/libopencl-clang.so.*
+usr/include/opencl-c.h
+usr/include/opencl-c-base.h
+

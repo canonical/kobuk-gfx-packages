@@ -1,0 +1,7 @@
+usr/include/igc
+usr/include/iga
+usr/include/visa
+usr/lib/*/libigdfcl.so.2
+usr/lib/*/libigdfcl.so
+usr/lib/*/pkgconfig
+usr/lib/*/igc2/NOTICES.txt
