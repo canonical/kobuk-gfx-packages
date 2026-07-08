@@ -1,3 +1,9 @@
+intel-compute-runtime (26.22.38646.6-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 26.22.38646.6
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Mon, 06 Jul 2026 18:44:55 +0200
+
 intel-compute-runtime (26.22.38646.4-1~26.04~ppa3) resolute; urgency=medium
 
   * New release 26.22.38646.4
