@@ -1,4 +1,0 @@
-drop-ciso-include.diff
-disable-free-nonheap-werror.diff
-dont-patch-llvm-test.diff
-drop-docs.diff

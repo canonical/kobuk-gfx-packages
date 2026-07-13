@@ -9,11 +9,11 @@ FULL_PATH=$(shell cd ../ && pwd)
 include /usr/share/dpkg/pkg-info.mk
 
 IGC_PATCH		 = $(shell sed -n -r 's/.*[0-9]+\.[0-9]+\.([0-9]+).*/\1/p;q' debian/changelog)
-LLVM_VERSION		 = 16
-LLVM_UPSTREAM_VERSION	 = 16.0.6
+LLVM_VERSION		 = 17
+LLVM_UPSTREAM_VERSION	 = 17.0.6
 VC_INTRINSICS_REV        = v0.25.0
-OPENCL_CLANG_REV         = v16.0.12
-LLVM_SPIRV_REV           = v16.0.25
+OPENCL_CLANG_REV         = v17.0.7
+LLVM_SPIRV_REV           = v17.0.24
 SPIRV_HEADERS_SHA        = b8a32968473ce852a809b9de5f04f02a5a9dfa78
 SPIRV_TOOLS_SHA          = 28a883ba4c67f58a9540fb0651c647bb02883622
 VENDOR_DIRS = llvm-project vc-intrinsics SPIRV-Headers SPIRV-Tools
@@ -34,7 +34,6 @@ vendor-deps:
 	git clone -b $(VC_INTRINSICS_REV) https://github.com/intel/vc-intrinsics vc-intrinsics
 	# try to get a minimal llvm tree, .git needs to be preserved
 	git clone -b llvmorg-$(LLVM_UPSTREAM_VERSION) --depth 50 --single-branch https://github.com/llvm/llvm-project llvm-project
-	rm -rf llvm-project/*/test
 	git clone -b $(OPENCL_CLANG_REV) https://github.com/intel/opencl-clang llvm-project/llvm/projects/opencl-clang
 	git clone -b $(LLVM_SPIRV_REV) https://github.com/KhronosGroup/SPIRV-LLVM-Translator llvm-project/llvm/projects/llvm-spirv
 	git clone https://github.com/KhronosGroup/SPIRV-Headers SPIRV-Headers
@@ -70,6 +69,7 @@ override_dh_auto_configure: set-gitconfig
 		-DIGC_OPTION__ARCHITECTURE_TARGET='Linux64' \
 		-DIGC_OPTION__LINK_KHRONOS_SPIRV_TRANSLATOR=ON \
 		-DIGC_OPTION__LLVM_MODE=Source \
+		-DCCLANG_BUILD_INTREE_LLVM=ON \
 		-DIGC_OPTION__LLVM_PREFERRED_VERSION=$(LLVM_UPSTREAM_VERSION) \
 		-DLLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR=${FULL_PATH}/SPIRV-Headers \
 		-DIGC_OPTION__SPIRV_TOOLS_MODE=Source \
