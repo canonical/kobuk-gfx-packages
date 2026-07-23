@@ -6,6 +6,7 @@
 override_dh_auto_configure:
 	dh_auto_configure -- \
 		-Duse_system_levelzero=true \
+		-Dshared_library=true \
 		-Duse_system_igsc=true
 
 override_dh_install:

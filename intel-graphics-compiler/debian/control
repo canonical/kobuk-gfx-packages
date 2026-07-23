@@ -62,7 +62,7 @@ Description: Media driver tools for Intel(R) Graphics Compiler for OpenCL(TM)
 Package: libigdfcl2
 Architecture: amd64
 Conflicts:
- libopencl-clang16,
+ libopencl-clang17,
  libigdfcl1
 Replaces: libigdfcl1
 Depends:

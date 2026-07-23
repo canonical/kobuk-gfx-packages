@@ -1,3 +1,25 @@
+intel-graphics-compiler (2.38.3-2~26.04ubuntu1) UNRELEASED; urgency=medium
+
+  * Upload new sources
+  * rules: don't rm tests dir
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 17 Jul 2026 14:34:56 -0700
+
+intel-graphics-compiler (2.38.3-2~26.04) resolute; urgency=medium
+
+  * Drop all patches, not needed anymore
+  * rules: add -DCCLANG_BUILD_INTREE_LLVM=ON to build opencl-clang
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 16 Jul 2026 10:20:01 -0700
+
+intel-graphics-compiler (2.38.3-1~26.04) resolute; urgency=medium
+
+  * New release v2.38.3
+  * New llvm version 17 linking
+  * rules: update opencl-cland and spirv-llvm versions
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 15 Jul 2026 10:14:40 -0700
+
 intel-graphics-compiler (2.36.3-2~26.04) resolute; urgency=medium
 
   * New release v2.36.3

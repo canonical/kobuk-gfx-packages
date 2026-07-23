@@ -1,3 +1,9 @@
+xpumanager (2.0.1-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 2.0.1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Mon, 13 Jul 2026 10:07:30 -0700
+
 xpumanager (2.0.0-1~26.04~ppa1) resolute; urgency=medium
 
   * New version 2.0.0
