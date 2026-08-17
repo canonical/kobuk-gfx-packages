@@ -4,6 +4,12 @@ intel-compute-runtime (26.27.39122.12-1~26.04~ppa1) resolute; urgency=medium
 
  -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Thu, 16 Jul 2026 11:05:33 -0700
 
+intel-compute-runtime (26.22.38646.7-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 26.22.38646.7
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Mon, 03 Aug 2026 18:47:45 +0200
+
 intel-compute-runtime (26.22.38646.6-1~26.04~ppa1) resolute; urgency=medium
 
   * New version 26.22.38646.6
