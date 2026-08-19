@@ -1,3 +1,9 @@
+libva-utils (2.24.0-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 2.24.0
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Mon, 03 Aug 2026 20:39:41 +0200
+
 libva-utils (2.23.0-1~25.10~ppa4) questing; urgency=medium
 
   * rules: don't run tests at the end of the build

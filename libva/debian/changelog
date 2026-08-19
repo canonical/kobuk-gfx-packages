@@ -1,3 +1,9 @@
+libva (2.24.1-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 2.24.1
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Mon, 03 Aug 2026 19:52:01 +0200
+
 libva (2.23.0-1~25.10~ppa5) questing; urgency=medium
 
   * Sync debian files from upstream
