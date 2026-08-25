@@ -1,3 +1,12 @@
+intel-compute-runtime (26.31.39395.13-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 26.31.39395.13
+  * control: igc>=2.40.13
+  * symbols: trim libze-intel-gpu1.symbols to match 26.31 ze_release.exports
+  * alternatives: intel-ocloc 26.27.1 -> 26.31.1, priority 39122 -> 39395
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Tue, 18 Aug 2026 15:50:56 +0200
+
 intel-compute-runtime (26.27.39122.14-1~26.04~ppa1) resolute; urgency=medium
 
   * New release 26.27.39122.14

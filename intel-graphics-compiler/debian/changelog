@@ -1,3 +1,9 @@
+intel-graphics-compiler (2.40.13-1~26.04) resolute; urgency=medium
+
+  * New release v2.40.13
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Tue, 18 Aug 2026 15:50:38 +0200
+
 intel-graphics-compiler (2.38.5-1~26.04) resolute; urgency=medium
 
   [ Pavel Androniychuk ]
