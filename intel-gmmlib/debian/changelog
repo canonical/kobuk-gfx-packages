@@ -1,3 +1,9 @@
+intel-gmmlib (22.10.1-1~26.04~ppa1) resolute; urgency=medium
+
+  * New version 22.10.1
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Thu, 20 Aug 2026 15:33:11 +0200
+
 intel-gmmlib (22.10.0-1~26.04~ppa1) resolute; urgency=medium
 
   * New version 22.10.0
