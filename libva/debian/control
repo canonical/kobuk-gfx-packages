@@ -69,7 +69,8 @@ Provides:
  libva-driver-abi-1.20,
  libva-driver-abi-1.21,
  libva-driver-abi-1.22,
- libva-driver-abi-1.23
+ libva-driver-abi-1.23,
+ libva-driver-abi-1.24
 Description: Video Acceleration (VA) API for Linux -- runtime
  Video Acceleration API (VA API) is a library ("libVA") and API specification
  which enables and provides access to graphics hardware (GPU) acceleration for
