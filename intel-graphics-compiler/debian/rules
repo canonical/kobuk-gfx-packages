@@ -12,10 +12,10 @@ IGC_PATCH		 = $(shell sed -n -r 's/.*[0-9]+\.[0-9]+\.([0-9]+).*/\1/p;q' debian/c
 LLVM_VERSION		 = 17
 LLVM_UPSTREAM_VERSION	 = 17.0.6
 VC_INTRINSICS_REV        = v0.25.0
-OPENCL_CLANG_REV         = v17.0.7
-LLVM_SPIRV_REV           = v17.0.24
-SPIRV_HEADERS_SHA        = b8a32968473ce852a809b9de5f04f02a5a9dfa78
-SPIRV_TOOLS_SHA          = 28a883ba4c67f58a9540fb0651c647bb02883622
+OPENCL_CLANG_REV         = v17.0.9
+LLVM_SPIRV_REV           = v17.0.26
+SPIRV_HEADERS_SHA        = 575b6512579ebde466ed3dfc04e413439d14d95d
+SPIRV_TOOLS_SHA          = f80351511e9c4672e284842c7b124315c511078a
 VENDOR_DIRS = llvm-project vc-intrinsics SPIRV-Headers SPIRV-Tools
 TAR_OPTIONS = --sort=name --mtime=@0 --owner=0 --group=0 --numeric-owner --pax-option=exthdr.name=%d/PaxHeaders/%f,delete=atime,delete=ctime
 
