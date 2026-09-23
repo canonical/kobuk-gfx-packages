@@ -3,7 +3,6 @@ libze_intel_gpu.so.1 libze-intel-gpu1 #MINVER#
  clEnqueueMarkerWithSyncObjectINTEL@Base 26.22.38646.4
  clGetCLEventInfoINTEL@Base 26.22.38646.4
  clGetCLObjectInfoINTEL@Base 26.22.38646.4
- clGetDeviceIDs@Base 26.22.38646.4
  clGetExtensionFunctionAddress@Base 26.22.38646.4
  clGetPlatformInfo@Base 26.22.38646.4
  clIcdGetPlatformIDsKHR@Base 26.22.38646.4

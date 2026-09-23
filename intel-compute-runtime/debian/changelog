@@ -1,3 +1,12 @@
+intel-compute-runtime (26.35.39758.11-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 26.35.39758.11
+  * control: bump libigc*/libigdfcl* >=2.41.5
+  * alternatives: intel-ocloc 26.31.1 -> 26.35.1
+  * symbols: drop clGetDeviceIDs
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Mon, 21 Sep 2026 15:14:28 +0200
+
 intel-compute-runtime (26.31.39395.13-1~26.04~ppa1) resolute; urgency=medium
 
   * New release 26.31.39395.13
