@@ -1,3 +1,9 @@
+intel-compute-runtime (26.35.39758.17-1~26.04~ppa1) resolute; urgency=medium
+
+  * Bugfix release
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Wed, 14 Oct 2026 13:54:56 -0700
+
 intel-compute-runtime (26.35.39758.11-1~26.04~ppa1) resolute; urgency=medium
 
   * New release 26.35.39758.11
