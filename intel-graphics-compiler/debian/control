@@ -31,7 +31,8 @@ Homepage: https://github.com/intel/intel-graphics-compiler
 
 Package: libigc2
 Architecture: amd64
-Replaces: libigc1
+Replaces: libigc1, libigc-dev (<< ${binary:Version})
+Breaks: libigc-dev (<< ${binary:Version})
 Conflicts: libigc1
 Depends:
  ${shlibs:Depends},
@@ -64,7 +65,8 @@ Architecture: amd64
 Conflicts:
  libopencl-clang22,
  libigdfcl1
-Replaces: libigdfcl1
+Replaces: libigdfcl1, libigdfcl-dev (<< ${binary:Version})
+Breaks: libigdfcl-dev (<< ${binary:Version})
 Depends:
  ${shlibs:Depends},
  ${misc:Depends}

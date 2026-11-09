@@ -1,3 +1,11 @@
+intel-graphics-compiler (2.41.16-1~26.04) resolute; urgency=medium
+
+  * New release v2.41.16
+  * install: move .so.2 SONAME symlinks from -dev to libigc2/libigdfcl2
+  * control: libigc2/libigdfcl2 Breaks+Replaces older -dev
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Tue, 03 Nov 2026 15:46:14 +0100
+
 intel-graphics-compiler (2.41.15~26.04) resolute; urgency=medium
 
   * Bugfix v2.41.15
