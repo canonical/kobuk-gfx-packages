@@ -1,3 +1,10 @@
+intel-compute-runtime (26.35.39758.21-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 26.35.39758.21
+  * control: igc>=2.41.16
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Tue, 03 Nov 2026 15:46:14 +0100
+
 intel-compute-runtime (26.35.39758.17-1~26.04~ppa1) resolute; urgency=medium
 
   * Bugfix release
