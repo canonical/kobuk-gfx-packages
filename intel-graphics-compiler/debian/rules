@@ -13,7 +13,7 @@ LLVM_VERSION		 = 22
 LLVM_UPSTREAM_VERSION	 = 22.1.8
 VC_INTRINSICS_REV        = v0.25.0
 OPENCL_CLANG_REV         = v22.1.4
-LLVM_SPIRV_REV           = v22.1.5
+LLVM_SPIRV_REV           = 0e67244861402a51b071414d7cb231a052b1ce03
 SPIRV_HEADERS_SHA        = 575b6512579ebde466ed3dfc04e413439d14d95d
 SPIRV_TOOLS_SHA          = f80351511e9c4672e284842c7b124315c511078a
 VENDOR_DIRS = llvm-project vc-intrinsics SPIRV-Headers SPIRV-Tools
@@ -35,7 +35,8 @@ vendor-deps:
 	# try to get a minimal llvm tree, .git needs to be preserved
 	git clone -b llvmorg-$(LLVM_UPSTREAM_VERSION) --depth 50 --single-branch https://github.com/llvm/llvm-project llvm-project
 	git clone -b $(OPENCL_CLANG_REV) https://github.com/intel/opencl-clang llvm-project/llvm/projects/opencl-clang
-	git clone -b $(LLVM_SPIRV_REV) https://github.com/KhronosGroup/SPIRV-LLVM-Translator llvm-project/llvm/projects/llvm-spirv
+	git clone https://github.com/KhronosGroup/SPIRV-LLVM-Translator llvm-project/llvm/projects/llvm-spirv
+	cd llvm-project/llvm/projects/llvm-spirv && git checkout $(LLVM_SPIRV_REV)
 	git clone https://github.com/KhronosGroup/SPIRV-Headers SPIRV-Headers
 	cd SPIRV-Headers && git checkout $(SPIRV_HEADERS_SHA) && cd ..
 	git clone https://github.com/KhronosGroup/SPIRV-Tools SPIRV-Tools

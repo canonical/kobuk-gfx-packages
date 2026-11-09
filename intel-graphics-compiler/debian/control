@@ -64,6 +64,7 @@ Package: libigdfcl2
 Architecture: amd64
 Conflicts:
  libopencl-clang22,
+ libopencl-clang22.1,
  libigdfcl1
 Replaces: libigdfcl1, libigdfcl-dev (<< ${binary:Version})
 Breaks: libigdfcl-dev (<< ${binary:Version})
