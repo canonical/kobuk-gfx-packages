@@ -1,3 +1,9 @@
+intel-media-driver-non-free (26.4.1-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 26.4.1
+
+ -- Pavel Androniychuk <pavel.androniychuk@intel.com>  Fri, 23 Oct 2026 16:02:49 -0700
+
 intel-media-driver-non-free (26.3.5-1~26.04~ppa1) resolute; urgency=medium
 
   * New release 26.3.5
