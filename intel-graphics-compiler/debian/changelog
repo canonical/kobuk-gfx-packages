@@ -1,3 +1,11 @@
+intel-graphics-compiler (2.43.3-1~26.04) resolute; urgency=medium
+
+  * New release v2.43.3
+  * rules: bump vendored vc-intrinsics v0.25.0 -> v0.26.0
+  * rules: bump vendored llvm-spirv 0e672448 -> 67b3fc33
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Tue, 10 Nov 2026 22:00:31 +0100
+
 intel-graphics-compiler (2.42.14-1~26.04) resolute; urgency=medium
 
   * New release v2.42.14
