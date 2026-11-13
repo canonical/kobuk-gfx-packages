@@ -1,3 +1,10 @@
+intel-compute-runtime (26.44.40734.8-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 26.44.40734.8
+  * control: bump libigc*/libigdfcl* >=2.43.9
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Fri, 13 Nov 2026 16:05:38 +0100
+
 intel-compute-runtime (26.44.40734.6-1~26.04~ppa1) resolute; urgency=medium
 
   * New release 26.44.40734.6
