@@ -1,2 +1,4 @@
+usr/lib/*/libiga64.so.2
 usr/lib/*/libiga64.so.2.*
+usr/lib/*/libigc.so.2
 usr/lib/*/libigc.so.2.*
