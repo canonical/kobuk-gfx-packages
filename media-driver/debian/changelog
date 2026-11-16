@@ -1,3 +1,9 @@
+intel-media-driver (26.4.2-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 26.4.2
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Fri, 13 Nov 2026 20:24:43 +0100
+
 intel-media-driver (26.3.5-1~26.04~ppa1) resolute; urgency=medium
 
   * New release 26.3.5
