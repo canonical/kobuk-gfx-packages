@@ -11,9 +11,9 @@ include /usr/share/dpkg/pkg-info.mk
 IGC_PATCH		 = $(shell sed -n -r 's/.*[0-9]+\.[0-9]+\.([0-9]+).*/\1/p;q' debian/changelog)
 LLVM_VERSION		 = 22
 LLVM_UPSTREAM_VERSION	 = 22.1.8
-VC_INTRINSICS_REV        = v0.25.0
+VC_INTRINSICS_REV        = v0.26.0
 OPENCL_CLANG_REV         = v22.1.4
-LLVM_SPIRV_REV           = 0e67244861402a51b071414d7cb231a052b1ce03
+LLVM_SPIRV_REV           = 67b3fc338a3ce0ebce5d249cbc437e8b36ffdeaa
 SPIRV_HEADERS_SHA        = 575b6512579ebde466ed3dfc04e413439d14d95d
 SPIRV_TOOLS_SHA          = f80351511e9c4672e284842c7b124315c511078a
 VENDOR_DIRS = llvm-project vc-intrinsics SPIRV-Headers SPIRV-Tools

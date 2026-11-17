@@ -1,3 +1,18 @@
+intel-compute-runtime (26.44.40734.8-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 26.44.40734.8
+  * control: bump libigc*/libigdfcl* >=2.43.9
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Fri, 13 Nov 2026 16:05:38 +0100
+
+intel-compute-runtime (26.44.40734.6-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 26.44.40734.6
+  * control: bump libigc*/libigdfcl* >=2.43.3
+  * alternatives: intel-ocloc 26.40.1 -> 26.44.1
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Tue, 10 Nov 2026 22:00:31 +0100
+
 intel-compute-runtime (26.40.40196.15-1~26.04~ppa1) resolute; urgency=medium
 
   * New release 26.40.40196.15
@@ -5,6 +20,14 @@ intel-compute-runtime (26.40.40196.15-1~26.04~ppa1) resolute; urgency=medium
   * alternatives: intel-ocloc 26.35.1 -> 26.40.1
 
  -- Savo Novakovic <savo.novakovic@intel.com>  Wed, 04 Nov 2026 20:12:12 +0100
+
+intel-compute-runtime (26.40.40196.8-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 26.40.40196.8
+  * control: bump libigc*/libigdfcl* >=2.42.6, libze-dev >=1.34.0
+  * alternatives: intel-ocloc 26.35.1 -> 26.40.1
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Fri, 23 Oct 2026 18:11:28 +0200
 
 intel-compute-runtime (26.35.39758.21-1~26.04~ppa1) resolute; urgency=medium
 
