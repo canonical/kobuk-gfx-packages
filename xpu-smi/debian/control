@@ -9,6 +9,7 @@ Build-Depends:
  cmake,
  libcli11-dev,
  libcurl4-openssl-dev,
+ libfmt-dev,
  libhwloc-dev,
  libigsc-dev,
  libpciaccess-dev,
