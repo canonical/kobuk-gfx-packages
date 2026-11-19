@@ -1,3 +1,9 @@
+xpumanager (2.4.0-1~26.04~ppa1) resolute; urgency=medium
+
+  * New release 2.4.0
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Thu, 19 Nov 2026 15:00:20 +0100
+
 xpumanager (2.2.0-1~26.04~ppa1) resolute; urgency=medium
 
   * New release 2.2.0
